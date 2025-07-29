@@ -51,26 +51,26 @@ message(STATUS "Found yaml-cpp: ${YAML_CPP_LIBRARY}")
 find_package(absl REQUIRED)
 # 定义所有源文件
 set(SOURCES
-    src/gateway/main.cpp
-    src/gateway/util/response_util.cpp
-    src/gateway/util/request_util.cpp
-    src/gateway/util/logger.cpp
-    src/gateway/util/config.cpp
-    src/gateway/service/health_service.cpp
-    src/gateway/service/hello_service.cpp
-    src/gateway/service/calculator_service.cpp
-    src/gateway/service/api_service.cpp
-    src/gateway/controller/health_controller.cpp
-    src/gateway/controller/hello_controller.cpp
-    src/gateway/controller/calculator_controller.cpp
-    src/gateway/controller/api_controller.cpp
-    src/gateway/controller/websocket_controller.cpp
+    main.cpp
+    util/response_util.cpp
+    util/request_util.cpp
+    util/logger.cpp
+    util/config.cpp
+    service/health_service.cpp
+    service/hello_service.cpp
+    service/calculator_service.cpp
+    service/api_service.cpp
+    controller/health_controller.cpp
+    controller/hello_controller.cpp
+    controller/calculator_controller.cpp
+    controller/api_controller.cpp
+    controller/websocket_controller.cpp
     # 用户服务客户端
-    src/user_service/service/user_client.cpp
-    src/user_service/util/logger.cpp
+    ../../user_service/service/user_client.cpp
+    ../../user_service/util/logger.cpp
     # 手动生成的Protobuf文件
-    src/user_service/proto/user.pb.cc
-    src/user_service/proto/user.grpc.pb.cc
+    ../../user_service/proto/user.pb.cc
+    ../../user_service/proto/user.grpc.pb.cc
 )
 
 # 查找 utf8_range 静态库（指定已知路径）
@@ -105,9 +105,9 @@ target_include_directories(${PROJECT_NAME} PRIVATE
     ${Protobuf_INCLUDE_DIRS}
     ${gRPC_INCLUDE_DIRS}
     /thirdparty/Crow-1.2.1-Linux/include
-    src/gateway
-    src/user_service
-    src/user_service/proto
+    ./
+    ../../user_service
+    ../../user_service/proto
 )
 
 # 添加必要的编译选项
