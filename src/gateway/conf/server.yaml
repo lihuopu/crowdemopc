@@ -1,0 +1,20 @@
+# 服务器配置文件
+server:
+  # 端口配置
+  port: 18080
+  host: "0.0.0.0"
+  threads: 4
+  
+  # 日志配置
+  log:
+    # 日志目录
+    directory: "./logs"
+    # 日志级别: DEBUG, INFO, WARN, ERROR, FATAL
+    level: "INFO"
+    # 最大文件大小 (字节)
+    max_file_size: 10485760  # 10MB
+    # 保留的日志文件数量
+    max_files: 5
+    # 日志文件名前缀
+    file_prefix: "gateway"
+
