@@ -1,0 +1,5 @@
+/home/kang/coderoot/crowdemo/src/user_service/build/CMakeFiles/rebuild_cache.dir
+/home/kang/coderoot/crowdemo/src/user_service/build/CMakeFiles/edit_cache.dir
+/home/kang/coderoot/crowdemo/src/user_service/build/CMakeFiles/user_service_test_client.dir
+/home/kang/coderoot/crowdemo/src/user_service/build/CMakeFiles/user_service_client.dir
+/home/kang/coderoot/crowdemo/src/user_service/build/CMakeFiles/user_service_server.dir

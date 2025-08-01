@@ -1,0 +1,32 @@
+2025-08-01 05:11:23.906 [INFO ] Logger initialized. Log file: ./logs/gateway_20250801.log
+2025-08-01 05:11:23.906 [INFO ] Logger initialized from config. Log file: ./logs/gateway_20250801.log
+2025-08-01 05:11:23.906 [INFO ] Gateway service starting...
+2025-08-01 05:13:47.915 [INFO ] RequestID: 5fefe939cf6575c5c70268e20a536363 | Method: 1 | URL: /api/user/1
+2025-08-01 05:13:47.915 [INFO ] RequestID: 5fefe939cf6575c5c70268e20a536363 | Headers:
+2025-08-01 05:13:47.915 [INFO ]   Connection: keep-alive
+2025-08-01 05:13:47.915 [INFO ]   Accept-Encoding: gzip, deflate, br
+2025-08-01 05:13:47.915 [INFO ]   Host: 192.168.58.130:18080
+2025-08-01 05:13:47.915 [INFO ]   Accept: */*
+2025-08-01 05:13:47.915 [INFO ]   User-Agent: Apifox/1.0.0 (https://apifox.com)
+2025-08-01 05:13:47.915 [INFO ] RequestID: 5fefe939cf6575c5c70268e20a536363 | 开始处理请求
+2025-08-01 05:13:47.916 [INFO ] ApiService 初始化开始
+2025-08-01 05:13:47.916 [INFO ] RequestID: 5fefe939cf6575c5c70268e20a536363 | Processing user info request for user_id: 1
+2025-08-01 05:13:47.925 [INFO ] 收到服务上线事件: /services/user_service/192.168.58.130:50051
+2025-08-01 05:13:47.925 [INFO ] 用户服务上线: /services/user_service/192.168.58.130:50051 -> {"host":"192.168.58.130","port":50051}
+2025-08-01 05:13:47.926 [INFO ] 服务发现初始化成功，可用服务数: 1
+2025-08-01 05:13:47.930 [INFO ] RequestID: 5fefe939cf6575c5c70268e20a536363 | User info retrieved from user service successfully
+2025-08-01 05:13:47.930 [INFO ] RequestID: 5fefe939cf6575c5c70268e20a536363 | Method: 1 | URL: /api/user/1 | 处理完成，耗时: 15ms
+2025-08-01 05:13:47.930 [INFO ] RequestID: 5fefe939cf6575c5c70268e20a536363 | Response Status: 200
+2025-08-01 05:14:04.794 [INFO ] RequestID: 983797d07e0c013562f675399a7ceb77 | Method: 1 | URL: /api/user/1
+2025-08-01 05:14:04.794 [INFO ] RequestID: 983797d07e0c013562f675399a7ceb77 | Headers:
+2025-08-01 05:14:04.794 [INFO ]   Connection: keep-alive
+2025-08-01 05:14:04.794 [INFO ]   Accept-Encoding: gzip, deflate, br
+2025-08-01 05:14:04.794 [INFO ]   Host: 192.168.58.130:18080
+2025-08-01 05:14:04.794 [INFO ]   Accept: */*
+2025-08-01 05:14:04.794 [INFO ]   User-Agent: Apifox/1.0.0 (https://apifox.com)
+2025-08-01 05:14:04.794 [INFO ] RequestID: 983797d07e0c013562f675399a7ceb77 | 开始处理请求
+2025-08-01 05:14:04.794 [INFO ] RequestID: 983797d07e0c013562f675399a7ceb77 | Processing user info request for user_id: 1
+2025-08-01 05:14:04.795 [INFO ] RequestID: 983797d07e0c013562f675399a7ceb77 | User info retrieved from user service successfully
+2025-08-01 05:14:04.795 [INFO ] RequestID: 983797d07e0c013562f675399a7ceb77 | Method: 1 | URL: /api/user/1 | 处理完成，耗时: 1ms
+2025-08-01 05:14:04.795 [INFO ] RequestID: 983797d07e0c013562f675399a7ceb77 | Response Status: 200
+2025-08-01 05:14:14.614 [INFO ] Logger shutting down

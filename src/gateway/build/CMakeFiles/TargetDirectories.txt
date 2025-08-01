@@ -1,0 +1,3 @@
+/home/kang/coderoot/crowdemo/src/gateway/build/CMakeFiles/rebuild_cache.dir
+/home/kang/coderoot/crowdemo/src/gateway/build/CMakeFiles/edit_cache.dir
+/home/kang/coderoot/crowdemo/src/gateway/build/CMakeFiles/crow_demo.dir

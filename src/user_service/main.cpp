@@ -6,13 +6,21 @@
 #include <iostream>
 #include <signal.h>
 #include <memory>
+#include "../../../testetcd/discovery.h"
+#include "../../../testetcd/registry.h"
+
 
 std::unique_ptr<grpc::Server> g_server;
+chat_server::Registry::ptr registry;
 
 void signalHandler(int signum) {
     LOG_INFO("收到信号 " + std::to_string(signum) + "，正在关闭服务器...");
     if (g_server) {
         g_server->Shutdown();
+    }
+
+    if (registry) {
+        // 这里可以考虑在关闭时进行一些清理操作，比如取消租约等
     }
 }
 
@@ -25,6 +33,21 @@ int main() {
     signal(SIGTERM, signalHandler);
     
     std::string server_address("0.0.0.0:50051");
+
+    try {
+        // 初始化服务注册器（连接etcd，创建30秒租约）
+        registry = std::make_shared<chat_server::Registry>("http://localhost:2379", 30);
+
+        // 注册服务（服务名、主机IP、端口）
+        bool ok = registry->register_service("user_service", "192.168.58.130", 50051);
+        if (!ok) {
+            LOG_ERROR("服务注册失败");
+            return 1;
+        }
+    } catch (const std::exception& e) {
+        LOG_ERROR("服务注册初始化失败: " + std::string(e.what()));
+        return 1;
+    }
     
     // 创建服务实现
     user_service::service::GrpcServiceImpl service;

@@ -97,6 +97,26 @@ if(NOT UTF8_VALIDITY_LIBRARY)
     message(FATAL_ERROR "libutf8_validity.a not found")
 endif()
 
+# 新增：查找cpprestsdk（依赖pplx）
+find_package(cpprestsdk REQUIRED)
+if(NOT cpprestsdk_FOUND)
+    message(FATAL_ERROR "cpprestsdk not found. Please install it (libcpprest-dev)")
+endif()
+
+# 关键修改：查找 etcd-cpp-apiv3 库（替换原etcd-cpp-client的配置）
+find_library(ETCD_CPP_API_LIBRARY  # 变量名修改为ETCD_CPP_API_LIBRARY
+    NAMES etcd-cpp-api  # 库名称为etcd-cpp-api（对应libetcd-cpp-api.so）
+    PATHS
+    /usr/lib
+    /usr/local/lib
+    /usr/lib64
+    /usr/local/lib64  # 你的库实际路径在此处
+)
+if(NOT ETCD_CPP_API_LIBRARY)
+    message(FATAL_ERROR "etcd-cpp-apiv3 library not found. Please check if libetcd-cpp-api.so exists in /usr/local/lib64")
+endif()
+
+
 add_executable(${PROJECT_NAME} ${SOURCES})
 
 target_include_directories(${PROJECT_NAME} PRIVATE
@@ -140,4 +160,8 @@ target_link_libraries(${PROJECT_NAME} PRIVATE
      ${UTF8_VALIDITY_LIBRARY}
       # 已有的其他库（Threads、yaml-cpp、protobuf、grpc、absl 等）
     ${UTF8_RANGE_LIBRARY}  # 新增：链接 utf8_range 静态库
+
+    # 新增：链接cpprestsdk和etcd-cpp-client
+    cpprestsdk::cpprest  # 提供pplx相关符号
+    ${ETCD_CPP_API_LIBRARY}      # 替换为etcd-cpp-apiv3的库变量
 )

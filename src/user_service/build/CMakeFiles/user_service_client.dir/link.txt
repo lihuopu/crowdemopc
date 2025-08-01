@@ -1,0 +1,2 @@
+/usr/bin/ar qc libuser_service_client.a CMakeFiles/user_service_client.dir/service/user_client.cpp.o CMakeFiles/user_service_client.dir/util/logger.cpp.o CMakeFiles/user_service_client.dir/proto/user.pb.cc.o CMakeFiles/user_service_client.dir/proto/user.grpc.pb.cc.o
+/usr/bin/ranlib libuser_service_client.a

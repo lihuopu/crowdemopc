@@ -1,0 +1,92 @@
+[
+{
+  "directory": "/home/kang/coderoot/crowdemo/src/gateway/build",
+  "command": "/usr/local/bin/c++ -DCARES_STATICLIB -DCPPREST_FORCE_HTTP_CLIENT_ASIO -DCPPREST_FORCE_HTTP_LISTENER_ASIO -DCPPREST_NO_SSL_LEAK_SUPPRESS -I/thirdparty/asio-1.30.2/include -I/thirdparty/Crow-1.2.1-Linux/include -I/home/kang/coderoot/crowdemo/src/gateway/. -I/home/kang/coderoot/crowdemo/src/gateway/../../user_service -I/home/kang/coderoot/crowdemo/src/gateway/../../user_service/proto -DASIO_STANDALONE -DASIO_NO_DEPRECATED -std=gnu++17 -o CMakeFiles/crow_demo.dir/main.cpp.o -c /home/kang/coderoot/crowdemo/src/gateway/main.cpp",
+  "file": "/home/kang/coderoot/crowdemo/src/gateway/main.cpp"
+},
+{
+  "directory": "/home/kang/coderoot/crowdemo/src/gateway/build",
+  "command": "/usr/local/bin/c++ -DCARES_STATICLIB -DCPPREST_FORCE_HTTP_CLIENT_ASIO -DCPPREST_FORCE_HTTP_LISTENER_ASIO -DCPPREST_NO_SSL_LEAK_SUPPRESS -I/thirdparty/asio-1.30.2/include -I/thirdparty/Crow-1.2.1-Linux/include -I/home/kang/coderoot/crowdemo/src/gateway/. -I/home/kang/coderoot/crowdemo/src/gateway/../../user_service -I/home/kang/coderoot/crowdemo/src/gateway/../../user_service/proto -DASIO_STANDALONE -DASIO_NO_DEPRECATED -std=gnu++17 -o CMakeFiles/crow_demo.dir/util/response_util.cpp.o -c /home/kang/coderoot/crowdemo/src/gateway/util/response_util.cpp",
+  "file": "/home/kang/coderoot/crowdemo/src/gateway/util/response_util.cpp"
+},
+{
+  "directory": "/home/kang/coderoot/crowdemo/src/gateway/build",
+  "command": "/usr/local/bin/c++ -DCARES_STATICLIB -DCPPREST_FORCE_HTTP_CLIENT_ASIO -DCPPREST_FORCE_HTTP_LISTENER_ASIO -DCPPREST_NO_SSL_LEAK_SUPPRESS -I/thirdparty/asio-1.30.2/include -I/thirdparty/Crow-1.2.1-Linux/include -I/home/kang/coderoot/crowdemo/src/gateway/. -I/home/kang/coderoot/crowdemo/src/gateway/../../user_service -I/home/kang/coderoot/crowdemo/src/gateway/../../user_service/proto -DASIO_STANDALONE -DASIO_NO_DEPRECATED -std=gnu++17 -o CMakeFiles/crow_demo.dir/util/request_util.cpp.o -c /home/kang/coderoot/crowdemo/src/gateway/util/request_util.cpp",
+  "file": "/home/kang/coderoot/crowdemo/src/gateway/util/request_util.cpp"
+},
+{
+  "directory": "/home/kang/coderoot/crowdemo/src/gateway/build",
+  "command": "/usr/local/bin/c++ -DCARES_STATICLIB -DCPPREST_FORCE_HTTP_CLIENT_ASIO -DCPPREST_FORCE_HTTP_LISTENER_ASIO -DCPPREST_NO_SSL_LEAK_SUPPRESS -I/thirdparty/asio-1.30.2/include -I/thirdparty/Crow-1.2.1-Linux/include -I/home/kang/coderoot/crowdemo/src/gateway/. -I/home/kang/coderoot/crowdemo/src/gateway/../../user_service -I/home/kang/coderoot/crowdemo/src/gateway/../../user_service/proto -DASIO_STANDALONE -DASIO_NO_DEPRECATED -std=gnu++17 -o CMakeFiles/crow_demo.dir/util/logger.cpp.o -c /home/kang/coderoot/crowdemo/src/gateway/util/logger.cpp",
+  "file": "/home/kang/coderoot/crowdemo/src/gateway/util/logger.cpp"
+},
+{
+  "directory": "/home/kang/coderoot/crowdemo/src/gateway/build",
+  "command": "/usr/local/bin/c++ -DCARES_STATICLIB -DCPPREST_FORCE_HTTP_CLIENT_ASIO -DCPPREST_FORCE_HTTP_LISTENER_ASIO -DCPPREST_NO_SSL_LEAK_SUPPRESS -I/thirdparty/asio-1.30.2/include -I/thirdparty/Crow-1.2.1-Linux/include -I/home/kang/coderoot/crowdemo/src/gateway/. -I/home/kang/coderoot/crowdemo/src/gateway/../../user_service -I/home/kang/coderoot/crowdemo/src/gateway/../../user_service/proto -DASIO_STANDALONE -DASIO_NO_DEPRECATED -std=gnu++17 -o CMakeFiles/crow_demo.dir/util/config.cpp.o -c /home/kang/coderoot/crowdemo/src/gateway/util/config.cpp",
+  "file": "/home/kang/coderoot/crowdemo/src/gateway/util/config.cpp"
+},
+{
+  "directory": "/home/kang/coderoot/crowdemo/src/gateway/build",
+  "command": "/usr/local/bin/c++ -DCARES_STATICLIB -DCPPREST_FORCE_HTTP_CLIENT_ASIO -DCPPREST_FORCE_HTTP_LISTENER_ASIO -DCPPREST_NO_SSL_LEAK_SUPPRESS -I/thirdparty/asio-1.30.2/include -I/thirdparty/Crow-1.2.1-Linux/include -I/home/kang/coderoot/crowdemo/src/gateway/. -I/home/kang/coderoot/crowdemo/src/gateway/../../user_service -I/home/kang/coderoot/crowdemo/src/gateway/../../user_service/proto -DASIO_STANDALONE -DASIO_NO_DEPRECATED -std=gnu++17 -o CMakeFiles/crow_demo.dir/service/health_service.cpp.o -c /home/kang/coderoot/crowdemo/src/gateway/service/health_service.cpp",
+  "file": "/home/kang/coderoot/crowdemo/src/gateway/service/health_service.cpp"
+},
+{
+  "directory": "/home/kang/coderoot/crowdemo/src/gateway/build",
+  "command": "/usr/local/bin/c++ -DCARES_STATICLIB -DCPPREST_FORCE_HTTP_CLIENT_ASIO -DCPPREST_FORCE_HTTP_LISTENER_ASIO -DCPPREST_NO_SSL_LEAK_SUPPRESS -I/thirdparty/asio-1.30.2/include -I/thirdparty/Crow-1.2.1-Linux/include -I/home/kang/coderoot/crowdemo/src/gateway/. -I/home/kang/coderoot/crowdemo/src/gateway/../../user_service -I/home/kang/coderoot/crowdemo/src/gateway/../../user_service/proto -DASIO_STANDALONE -DASIO_NO_DEPRECATED -std=gnu++17 -o CMakeFiles/crow_demo.dir/service/hello_service.cpp.o -c /home/kang/coderoot/crowdemo/src/gateway/service/hello_service.cpp",
+  "file": "/home/kang/coderoot/crowdemo/src/gateway/service/hello_service.cpp"
+},
+{
+  "directory": "/home/kang/coderoot/crowdemo/src/gateway/build",
+  "command": "/usr/local/bin/c++ -DCARES_STATICLIB -DCPPREST_FORCE_HTTP_CLIENT_ASIO -DCPPREST_FORCE_HTTP_LISTENER_ASIO -DCPPREST_NO_SSL_LEAK_SUPPRESS -I/thirdparty/asio-1.30.2/include -I/thirdparty/Crow-1.2.1-Linux/include -I/home/kang/coderoot/crowdemo/src/gateway/. -I/home/kang/coderoot/crowdemo/src/gateway/../../user_service -I/home/kang/coderoot/crowdemo/src/gateway/../../user_service/proto -DASIO_STANDALONE -DASIO_NO_DEPRECATED -std=gnu++17 -o CMakeFiles/crow_demo.dir/service/calculator_service.cpp.o -c /home/kang/coderoot/crowdemo/src/gateway/service/calculator_service.cpp",
+  "file": "/home/kang/coderoot/crowdemo/src/gateway/service/calculator_service.cpp"
+},
+{
+  "directory": "/home/kang/coderoot/crowdemo/src/gateway/build",
+  "command": "/usr/local/bin/c++ -DCARES_STATICLIB -DCPPREST_FORCE_HTTP_CLIENT_ASIO -DCPPREST_FORCE_HTTP_LISTENER_ASIO -DCPPREST_NO_SSL_LEAK_SUPPRESS -I/thirdparty/asio-1.30.2/include -I/thirdparty/Crow-1.2.1-Linux/include -I/home/kang/coderoot/crowdemo/src/gateway/. -I/home/kang/coderoot/crowdemo/src/gateway/../../user_service -I/home/kang/coderoot/crowdemo/src/gateway/../../user_service/proto -DASIO_STANDALONE -DASIO_NO_DEPRECATED -std=gnu++17 -o CMakeFiles/crow_demo.dir/service/api_service.cpp.o -c /home/kang/coderoot/crowdemo/src/gateway/service/api_service.cpp",
+  "file": "/home/kang/coderoot/crowdemo/src/gateway/service/api_service.cpp"
+},
+{
+  "directory": "/home/kang/coderoot/crowdemo/src/gateway/build",
+  "command": "/usr/local/bin/c++ -DCARES_STATICLIB -DCPPREST_FORCE_HTTP_CLIENT_ASIO -DCPPREST_FORCE_HTTP_LISTENER_ASIO -DCPPREST_NO_SSL_LEAK_SUPPRESS -I/thirdparty/asio-1.30.2/include -I/thirdparty/Crow-1.2.1-Linux/include -I/home/kang/coderoot/crowdemo/src/gateway/. -I/home/kang/coderoot/crowdemo/src/gateway/../../user_service -I/home/kang/coderoot/crowdemo/src/gateway/../../user_service/proto -DASIO_STANDALONE -DASIO_NO_DEPRECATED -std=gnu++17 -o CMakeFiles/crow_demo.dir/controller/health_controller.cpp.o -c /home/kang/coderoot/crowdemo/src/gateway/controller/health_controller.cpp",
+  "file": "/home/kang/coderoot/crowdemo/src/gateway/controller/health_controller.cpp"
+},
+{
+  "directory": "/home/kang/coderoot/crowdemo/src/gateway/build",
+  "command": "/usr/local/bin/c++ -DCARES_STATICLIB -DCPPREST_FORCE_HTTP_CLIENT_ASIO -DCPPREST_FORCE_HTTP_LISTENER_ASIO -DCPPREST_NO_SSL_LEAK_SUPPRESS -I/thirdparty/asio-1.30.2/include -I/thirdparty/Crow-1.2.1-Linux/include -I/home/kang/coderoot/crowdemo/src/gateway/. -I/home/kang/coderoot/crowdemo/src/gateway/../../user_service -I/home/kang/coderoot/crowdemo/src/gateway/../../user_service/proto -DASIO_STANDALONE -DASIO_NO_DEPRECATED -std=gnu++17 -o CMakeFiles/crow_demo.dir/controller/hello_controller.cpp.o -c /home/kang/coderoot/crowdemo/src/gateway/controller/hello_controller.cpp",
+  "file": "/home/kang/coderoot/crowdemo/src/gateway/controller/hello_controller.cpp"
+},
+{
+  "directory": "/home/kang/coderoot/crowdemo/src/gateway/build",
+  "command": "/usr/local/bin/c++ -DCARES_STATICLIB -DCPPREST_FORCE_HTTP_CLIENT_ASIO -DCPPREST_FORCE_HTTP_LISTENER_ASIO -DCPPREST_NO_SSL_LEAK_SUPPRESS -I/thirdparty/asio-1.30.2/include -I/thirdparty/Crow-1.2.1-Linux/include -I/home/kang/coderoot/crowdemo/src/gateway/. -I/home/kang/coderoot/crowdemo/src/gateway/../../user_service -I/home/kang/coderoot/crowdemo/src/gateway/../../user_service/proto -DASIO_STANDALONE -DASIO_NO_DEPRECATED -std=gnu++17 -o CMakeFiles/crow_demo.dir/controller/calculator_controller.cpp.o -c /home/kang/coderoot/crowdemo/src/gateway/controller/calculator_controller.cpp",
+  "file": "/home/kang/coderoot/crowdemo/src/gateway/controller/calculator_controller.cpp"
+},
+{
+  "directory": "/home/kang/coderoot/crowdemo/src/gateway/build",
+  "command": "/usr/local/bin/c++ -DCARES_STATICLIB -DCPPREST_FORCE_HTTP_CLIENT_ASIO -DCPPREST_FORCE_HTTP_LISTENER_ASIO -DCPPREST_NO_SSL_LEAK_SUPPRESS -I/thirdparty/asio-1.30.2/include -I/thirdparty/Crow-1.2.1-Linux/include -I/home/kang/coderoot/crowdemo/src/gateway/. -I/home/kang/coderoot/crowdemo/src/gateway/../../user_service -I/home/kang/coderoot/crowdemo/src/gateway/../../user_service/proto -DASIO_STANDALONE -DASIO_NO_DEPRECATED -std=gnu++17 -o CMakeFiles/crow_demo.dir/controller/api_controller.cpp.o -c /home/kang/coderoot/crowdemo/src/gateway/controller/api_controller.cpp",
+  "file": "/home/kang/coderoot/crowdemo/src/gateway/controller/api_controller.cpp"
+},
+{
+  "directory": "/home/kang/coderoot/crowdemo/src/gateway/build",
+  "command": "/usr/local/bin/c++ -DCARES_STATICLIB -DCPPREST_FORCE_HTTP_CLIENT_ASIO -DCPPREST_FORCE_HTTP_LISTENER_ASIO -DCPPREST_NO_SSL_LEAK_SUPPRESS -I/thirdparty/asio-1.30.2/include -I/thirdparty/Crow-1.2.1-Linux/include -I/home/kang/coderoot/crowdemo/src/gateway/. -I/home/kang/coderoot/crowdemo/src/gateway/../../user_service -I/home/kang/coderoot/crowdemo/src/gateway/../../user_service/proto -DASIO_STANDALONE -DASIO_NO_DEPRECATED -std=gnu++17 -o CMakeFiles/crow_demo.dir/controller/websocket_controller.cpp.o -c /home/kang/coderoot/crowdemo/src/gateway/controller/websocket_controller.cpp",
+  "file": "/home/kang/coderoot/crowdemo/src/gateway/controller/websocket_controller.cpp"
+},
+{
+  "directory": "/home/kang/coderoot/crowdemo/src/gateway/build",
+  "command": "/usr/local/bin/c++ -DCARES_STATICLIB -DCPPREST_FORCE_HTTP_CLIENT_ASIO -DCPPREST_FORCE_HTTP_LISTENER_ASIO -DCPPREST_NO_SSL_LEAK_SUPPRESS -I/thirdparty/asio-1.30.2/include -I/thirdparty/Crow-1.2.1-Linux/include -I/home/kang/coderoot/crowdemo/src/gateway/. -I/home/kang/coderoot/crowdemo/src/gateway/../../user_service -I/home/kang/coderoot/crowdemo/src/gateway/../../user_service/proto -DASIO_STANDALONE -DASIO_NO_DEPRECATED -std=gnu++17 -o CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/service/user_client.cpp.o -c /home/kang/coderoot/crowdemo/src/user_service/service/user_client.cpp",
+  "file": "/home/kang/coderoot/crowdemo/src/user_service/service/user_client.cpp"
+},
+{
+  "directory": "/home/kang/coderoot/crowdemo/src/gateway/build",
+  "command": "/usr/local/bin/c++ -DCARES_STATICLIB -DCPPREST_FORCE_HTTP_CLIENT_ASIO -DCPPREST_FORCE_HTTP_LISTENER_ASIO -DCPPREST_NO_SSL_LEAK_SUPPRESS -I/thirdparty/asio-1.30.2/include -I/thirdparty/Crow-1.2.1-Linux/include -I/home/kang/coderoot/crowdemo/src/gateway/. -I/home/kang/coderoot/crowdemo/src/gateway/../../user_service -I/home/kang/coderoot/crowdemo/src/gateway/../../user_service/proto -DASIO_STANDALONE -DASIO_NO_DEPRECATED -std=gnu++17 -o CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/util/logger.cpp.o -c /home/kang/coderoot/crowdemo/src/user_service/util/logger.cpp",
+  "file": "/home/kang/coderoot/crowdemo/src/user_service/util/logger.cpp"
+},
+{
+  "directory": "/home/kang/coderoot/crowdemo/src/gateway/build",
+  "command": "/usr/local/bin/c++ -DCARES_STATICLIB -DCPPREST_FORCE_HTTP_CLIENT_ASIO -DCPPREST_FORCE_HTTP_LISTENER_ASIO -DCPPREST_NO_SSL_LEAK_SUPPRESS -I/thirdparty/asio-1.30.2/include -I/thirdparty/Crow-1.2.1-Linux/include -I/home/kang/coderoot/crowdemo/src/gateway/. -I/home/kang/coderoot/crowdemo/src/gateway/../../user_service -I/home/kang/coderoot/crowdemo/src/gateway/../../user_service/proto -DASIO_STANDALONE -DASIO_NO_DEPRECATED -std=gnu++17 -o CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.cc.o -c /home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.cc",
+  "file": "/home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.cc"
+},
+{
+  "directory": "/home/kang/coderoot/crowdemo/src/gateway/build",
+  "command": "/usr/local/bin/c++ -DCARES_STATICLIB -DCPPREST_FORCE_HTTP_CLIENT_ASIO -DCPPREST_FORCE_HTTP_LISTENER_ASIO -DCPPREST_NO_SSL_LEAK_SUPPRESS -I/thirdparty/asio-1.30.2/include -I/thirdparty/Crow-1.2.1-Linux/include -I/home/kang/coderoot/crowdemo/src/gateway/. -I/home/kang/coderoot/crowdemo/src/gateway/../../user_service -I/home/kang/coderoot/crowdemo/src/gateway/../../user_service/proto -DASIO_STANDALONE -DASIO_NO_DEPRECATED -std=gnu++17 -o CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/proto/user.grpc.pb.cc.o -c /home/kang/coderoot/crowdemo/src/user_service/proto/user.grpc.pb.cc",
+  "file": "/home/kang/coderoot/crowdemo/src/user_service/proto/user.grpc.pb.cc"
+}
+]
