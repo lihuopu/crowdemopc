@@ -7,6 +7,7 @@
 
 namespace user_service::service {
 
+//继承grpc框架基类
 class GrpcServiceImpl final : public user::UserService::Service {
 public:
     // 获取用户信息

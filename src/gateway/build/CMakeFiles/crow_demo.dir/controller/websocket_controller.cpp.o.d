@@ -1,7 +1,7 @@
 CMakeFiles/crow_demo.dir/controller/websocket_controller.cpp.o: \
- /home/kang/coderoot/crowdemo/src/gateway/controller/websocket_controller.cpp \
+ /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/controller/websocket_controller.cpp \
  /usr/include/stdc-predef.h \
- /home/kang/coderoot/crowdemo/src/gateway/controller/websocket_controller.h \
+ /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/controller/websocket_controller.h \
  /usr/local/include/crow.h /usr/local/include/crow/query_string.h \
  /usr/include/stdio.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/sys/cdefs.h \
@@ -851,5 +851,9 @@ CMakeFiles/crow_demo.dir/controller/websocket_controller.cpp.o: \
  /usr/local/include/c++/11.2.0/bits/this_thread_sleep.h \
  /usr/local/include/c++/11.2.0/unordered_set \
  /usr/local/include/c++/11.2.0/bits/unordered_set.h \
- /home/kang/coderoot/crowdemo/src/gateway/controller/../util/logger.h \
- /home/kang/coderoot/crowdemo/src/gateway/controller/../util/response_util.h
+ /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/controller/../../../testredis/redis.hpp \
+ /usr/local/include/hiredis/hiredis.h /usr/local/include/hiredis/read.h \
+ /usr/include/sys/time.h /usr/local/include/hiredis/sds.h \
+ /usr/local/include/hiredis/alloc.h \
+ /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/controller/../util/logger.h \
+ /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/controller/../util/response_util.h

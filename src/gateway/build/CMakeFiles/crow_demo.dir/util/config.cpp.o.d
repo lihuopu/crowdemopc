@@ -1,7 +1,7 @@
 CMakeFiles/crow_demo.dir/util/config.cpp.o: \
- /home/kang/coderoot/crowdemo/src/gateway/util/config.cpp \
+ /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/util/config.cpp \
  /usr/include/stdc-predef.h \
- /home/kang/coderoot/crowdemo/src/gateway/util/config.h \
+ /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/util/config.h \
  /usr/local/include/c++/11.2.0/string \
  /usr/local/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/local/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -253,7 +253,7 @@ CMakeFiles/crow_demo.dir/util/config.cpp.o: \
  /usr/local/include/yaml-cpp/node/detail/impl.h \
  /usr/local/include/yaml-cpp/node/parse.h \
  /usr/local/include/yaml-cpp/node/emit.h \
- /home/kang/coderoot/crowdemo/src/gateway/util/logger.h \
+ /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/util/logger.h \
  /usr/local/include/c++/11.2.0/fstream \
  /usr/local/include/c++/11.2.0/bits/codecvt.h \
  /usr/local/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/basic_file.h \

@@ -1,7 +1,7 @@
 CMakeFiles/user_service_server.dir/controller/user_controller.cpp.o: \
- /home/kang/coderoot/crowdemo/src/user_service/controller/user_controller.cpp \
+ /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/controller/user_controller.cpp \
  /usr/include/stdc-predef.h \
- /home/kang/coderoot/crowdemo/src/user_service/controller/user_controller.h \
+ /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/controller/user_controller.h \
  /usr/local/include/grpcpp/grpcpp.h /usr/local/include/grpc/grpc.h \
  /usr/local/include/grpc/support/port_platform.h /usr/include/features.h \
  /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
@@ -295,8 +295,8 @@ CMakeFiles/user_service_server.dir/controller/user_controller.cpp.o: \
  /usr/local/include/grpcpp/security/authorization_policy_provider.h \
  /usr/local/include/grpcpp/server_posix.h \
  /usr/local/include/grpcpp/version_info.h \
- /home/kang/coderoot/crowdemo/src/user_service/controller/../proto/user.grpc.pb.h \
- /home/kang/coderoot/crowdemo/src/user_service/controller/../proto/user.pb.h \
+ /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/controller/../proto/user.grpc.pb.h \
+ /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/controller/../proto/user.pb.h \
  /usr/local/include/google/protobuf/port_def.inc \
  /usr/local/include/google/protobuf/port_undef.inc \
  /usr/local/include/google/protobuf/io/coded_stream.h \
@@ -476,9 +476,13 @@ CMakeFiles/user_service_server.dir/controller/user_controller.cpp.o: \
  /usr/local/include/grpcpp/support/proto_buffer_reader.h \
  /usr/local/include/grpcpp/support/proto_buffer_writer.h \
  /usr/local/include/grpcpp/support/stub_options.h \
- /home/kang/coderoot/crowdemo/src/user_service/controller/../service/user_service.h \
- /home/kang/coderoot/crowdemo/src/user_service/controller/../service/../proto/user.pb.h \
- /home/kang/coderoot/crowdemo/src/user_service/controller/../util/logger.h \
+ /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/controller/../service/user_service.h \
+ /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/controller/../service/../proto/user.pb.h \
+ /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/controller/../../../testredis/redis.hpp \
+ /usr/local/include/hiredis/hiredis.h /usr/local/include/hiredis/read.h \
+ /usr/local/include/hiredis/sds.h /usr/local/include/hiredis/alloc.h \
+ /usr/include/c++/8/thread \
+ /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/controller/../util/logger.h \
  /usr/include/c++/8/iomanip /usr/include/c++/8/locale \
  /usr/include/c++/8/bits/locale_facets_nonio.h \
  /usr/include/c++/8/x86_64-redhat-linux/bits/time_members.h \

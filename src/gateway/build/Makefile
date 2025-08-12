@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kang/coderoot/crowdemo/src/gateway
+CMAKE_SOURCE_DIR = /home/kang/coderoot/crowdemo/crowdemopc/src/gateway
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kang/coderoot/crowdemo/src/gateway/build
+CMAKE_BINARY_DIR = /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kang/coderoot/crowdemo/src/gateway/build/CMakeFiles /home/kang/coderoot/crowdemo/src/gateway/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/build/CMakeFiles /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kang/coderoot/crowdemo/src/gateway/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -249,101 +249,125 @@ controller/websocket_controller.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/crow_demo.dir/build.make CMakeFiles/crow_demo.dir/controller/websocket_controller.cpp.s
 .PHONY : controller/websocket_controller.cpp.s
 
-home/kang/coderoot/crowdemo/src/user_service/proto/user.grpc.pb.o: home/kang/coderoot/crowdemo/src/user_service/proto/user.grpc.pb.cc.o
-.PHONY : home/kang/coderoot/crowdemo/src/user_service/proto/user.grpc.pb.o
+home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.grpc.pb.o: home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.grpc.pb.cc.o
+.PHONY : home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.grpc.pb.o
 
 # target to build an object file
-home/kang/coderoot/crowdemo/src/user_service/proto/user.grpc.pb.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/crow_demo.dir/build.make CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/proto/user.grpc.pb.cc.o
-.PHONY : home/kang/coderoot/crowdemo/src/user_service/proto/user.grpc.pb.cc.o
+home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.grpc.pb.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/crow_demo.dir/build.make CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.grpc.pb.cc.o
+.PHONY : home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.grpc.pb.cc.o
 
-home/kang/coderoot/crowdemo/src/user_service/proto/user.grpc.pb.i: home/kang/coderoot/crowdemo/src/user_service/proto/user.grpc.pb.cc.i
-.PHONY : home/kang/coderoot/crowdemo/src/user_service/proto/user.grpc.pb.i
+home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.grpc.pb.i: home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.grpc.pb.cc.i
+.PHONY : home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.grpc.pb.i
 
 # target to preprocess a source file
-home/kang/coderoot/crowdemo/src/user_service/proto/user.grpc.pb.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/crow_demo.dir/build.make CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/proto/user.grpc.pb.cc.i
-.PHONY : home/kang/coderoot/crowdemo/src/user_service/proto/user.grpc.pb.cc.i
+home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.grpc.pb.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/crow_demo.dir/build.make CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.grpc.pb.cc.i
+.PHONY : home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.grpc.pb.cc.i
 
-home/kang/coderoot/crowdemo/src/user_service/proto/user.grpc.pb.s: home/kang/coderoot/crowdemo/src/user_service/proto/user.grpc.pb.cc.s
-.PHONY : home/kang/coderoot/crowdemo/src/user_service/proto/user.grpc.pb.s
+home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.grpc.pb.s: home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.grpc.pb.cc.s
+.PHONY : home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.grpc.pb.s
 
 # target to generate assembly for a file
-home/kang/coderoot/crowdemo/src/user_service/proto/user.grpc.pb.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/crow_demo.dir/build.make CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/proto/user.grpc.pb.cc.s
-.PHONY : home/kang/coderoot/crowdemo/src/user_service/proto/user.grpc.pb.cc.s
+home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.grpc.pb.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/crow_demo.dir/build.make CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.grpc.pb.cc.s
+.PHONY : home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.grpc.pb.cc.s
 
-home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.o: home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.cc.o
-.PHONY : home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.o
+home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.pb.o: home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.pb.cc.o
+.PHONY : home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.pb.o
 
 # target to build an object file
-home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/crow_demo.dir/build.make CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.cc.o
-.PHONY : home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.cc.o
+home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.pb.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/crow_demo.dir/build.make CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.pb.cc.o
+.PHONY : home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.pb.cc.o
 
-home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.i: home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.cc.i
-.PHONY : home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.i
+home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.pb.i: home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.pb.cc.i
+.PHONY : home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.pb.i
 
 # target to preprocess a source file
-home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/crow_demo.dir/build.make CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.cc.i
-.PHONY : home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.cc.i
+home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.pb.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/crow_demo.dir/build.make CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.pb.cc.i
+.PHONY : home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.pb.cc.i
 
-home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.s: home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.cc.s
-.PHONY : home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.s
+home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.pb.s: home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.pb.cc.s
+.PHONY : home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.pb.s
 
 # target to generate assembly for a file
-home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/crow_demo.dir/build.make CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.cc.s
-.PHONY : home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.cc.s
+home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.pb.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/crow_demo.dir/build.make CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.pb.cc.s
+.PHONY : home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.pb.cc.s
 
-home/kang/coderoot/crowdemo/src/user_service/service/user_client.o: home/kang/coderoot/crowdemo/src/user_service/service/user_client.cpp.o
-.PHONY : home/kang/coderoot/crowdemo/src/user_service/service/user_client.o
+home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/user_client.o: home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/user_client.cpp.o
+.PHONY : home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/user_client.o
 
 # target to build an object file
-home/kang/coderoot/crowdemo/src/user_service/service/user_client.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/crow_demo.dir/build.make CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/service/user_client.cpp.o
-.PHONY : home/kang/coderoot/crowdemo/src/user_service/service/user_client.cpp.o
+home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/user_client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/crow_demo.dir/build.make CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/user_client.cpp.o
+.PHONY : home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/user_client.cpp.o
 
-home/kang/coderoot/crowdemo/src/user_service/service/user_client.i: home/kang/coderoot/crowdemo/src/user_service/service/user_client.cpp.i
-.PHONY : home/kang/coderoot/crowdemo/src/user_service/service/user_client.i
+home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/user_client.i: home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/user_client.cpp.i
+.PHONY : home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/user_client.i
 
 # target to preprocess a source file
-home/kang/coderoot/crowdemo/src/user_service/service/user_client.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/crow_demo.dir/build.make CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/service/user_client.cpp.i
-.PHONY : home/kang/coderoot/crowdemo/src/user_service/service/user_client.cpp.i
+home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/user_client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/crow_demo.dir/build.make CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/user_client.cpp.i
+.PHONY : home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/user_client.cpp.i
 
-home/kang/coderoot/crowdemo/src/user_service/service/user_client.s: home/kang/coderoot/crowdemo/src/user_service/service/user_client.cpp.s
-.PHONY : home/kang/coderoot/crowdemo/src/user_service/service/user_client.s
+home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/user_client.s: home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/user_client.cpp.s
+.PHONY : home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/user_client.s
 
 # target to generate assembly for a file
-home/kang/coderoot/crowdemo/src/user_service/service/user_client.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/crow_demo.dir/build.make CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/service/user_client.cpp.s
-.PHONY : home/kang/coderoot/crowdemo/src/user_service/service/user_client.cpp.s
+home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/user_client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/crow_demo.dir/build.make CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/user_client.cpp.s
+.PHONY : home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/user_client.cpp.s
 
-home/kang/coderoot/crowdemo/src/user_service/util/logger.o: home/kang/coderoot/crowdemo/src/user_service/util/logger.cpp.o
-.PHONY : home/kang/coderoot/crowdemo/src/user_service/util/logger.o
+home/kang/coderoot/crowdemo/crowdemopc/src/user_service/util/logger.o: home/kang/coderoot/crowdemo/crowdemopc/src/user_service/util/logger.cpp.o
+.PHONY : home/kang/coderoot/crowdemo/crowdemopc/src/user_service/util/logger.o
 
 # target to build an object file
-home/kang/coderoot/crowdemo/src/user_service/util/logger.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/crow_demo.dir/build.make CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/util/logger.cpp.o
-.PHONY : home/kang/coderoot/crowdemo/src/user_service/util/logger.cpp.o
+home/kang/coderoot/crowdemo/crowdemopc/src/user_service/util/logger.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/crow_demo.dir/build.make CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/util/logger.cpp.o
+.PHONY : home/kang/coderoot/crowdemo/crowdemopc/src/user_service/util/logger.cpp.o
 
-home/kang/coderoot/crowdemo/src/user_service/util/logger.i: home/kang/coderoot/crowdemo/src/user_service/util/logger.cpp.i
-.PHONY : home/kang/coderoot/crowdemo/src/user_service/util/logger.i
+home/kang/coderoot/crowdemo/crowdemopc/src/user_service/util/logger.i: home/kang/coderoot/crowdemo/crowdemopc/src/user_service/util/logger.cpp.i
+.PHONY : home/kang/coderoot/crowdemo/crowdemopc/src/user_service/util/logger.i
 
 # target to preprocess a source file
-home/kang/coderoot/crowdemo/src/user_service/util/logger.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/crow_demo.dir/build.make CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/util/logger.cpp.i
-.PHONY : home/kang/coderoot/crowdemo/src/user_service/util/logger.cpp.i
+home/kang/coderoot/crowdemo/crowdemopc/src/user_service/util/logger.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/crow_demo.dir/build.make CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/util/logger.cpp.i
+.PHONY : home/kang/coderoot/crowdemo/crowdemopc/src/user_service/util/logger.cpp.i
 
-home/kang/coderoot/crowdemo/src/user_service/util/logger.s: home/kang/coderoot/crowdemo/src/user_service/util/logger.cpp.s
-.PHONY : home/kang/coderoot/crowdemo/src/user_service/util/logger.s
+home/kang/coderoot/crowdemo/crowdemopc/src/user_service/util/logger.s: home/kang/coderoot/crowdemo/crowdemopc/src/user_service/util/logger.cpp.s
+.PHONY : home/kang/coderoot/crowdemo/crowdemopc/src/user_service/util/logger.s
 
 # target to generate assembly for a file
-home/kang/coderoot/crowdemo/src/user_service/util/logger.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/crow_demo.dir/build.make CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/util/logger.cpp.s
-.PHONY : home/kang/coderoot/crowdemo/src/user_service/util/logger.cpp.s
+home/kang/coderoot/crowdemo/crowdemopc/src/user_service/util/logger.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/crow_demo.dir/build.make CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/util/logger.cpp.s
+.PHONY : home/kang/coderoot/crowdemo/crowdemopc/src/user_service/util/logger.cpp.s
+
+home/kang/coderoot/crowdemo/testredis/redis.o: home/kang/coderoot/crowdemo/testredis/redis.cpp.o
+.PHONY : home/kang/coderoot/crowdemo/testredis/redis.o
+
+# target to build an object file
+home/kang/coderoot/crowdemo/testredis/redis.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/crow_demo.dir/build.make CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/testredis/redis.cpp.o
+.PHONY : home/kang/coderoot/crowdemo/testredis/redis.cpp.o
+
+home/kang/coderoot/crowdemo/testredis/redis.i: home/kang/coderoot/crowdemo/testredis/redis.cpp.i
+.PHONY : home/kang/coderoot/crowdemo/testredis/redis.i
+
+# target to preprocess a source file
+home/kang/coderoot/crowdemo/testredis/redis.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/crow_demo.dir/build.make CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/testredis/redis.cpp.i
+.PHONY : home/kang/coderoot/crowdemo/testredis/redis.cpp.i
+
+home/kang/coderoot/crowdemo/testredis/redis.s: home/kang/coderoot/crowdemo/testredis/redis.cpp.s
+.PHONY : home/kang/coderoot/crowdemo/testredis/redis.s
+
+# target to generate assembly for a file
+home/kang/coderoot/crowdemo/testredis/redis.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/crow_demo.dir/build.make CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/testredis/redis.cpp.s
+.PHONY : home/kang/coderoot/crowdemo/testredis/redis.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -585,18 +609,21 @@ help:
 	@echo "... controller/websocket_controller.o"
 	@echo "... controller/websocket_controller.i"
 	@echo "... controller/websocket_controller.s"
-	@echo "... home/kang/coderoot/crowdemo/src/user_service/proto/user.grpc.pb.o"
-	@echo "... home/kang/coderoot/crowdemo/src/user_service/proto/user.grpc.pb.i"
-	@echo "... home/kang/coderoot/crowdemo/src/user_service/proto/user.grpc.pb.s"
-	@echo "... home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.o"
-	@echo "... home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.i"
-	@echo "... home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.s"
-	@echo "... home/kang/coderoot/crowdemo/src/user_service/service/user_client.o"
-	@echo "... home/kang/coderoot/crowdemo/src/user_service/service/user_client.i"
-	@echo "... home/kang/coderoot/crowdemo/src/user_service/service/user_client.s"
-	@echo "... home/kang/coderoot/crowdemo/src/user_service/util/logger.o"
-	@echo "... home/kang/coderoot/crowdemo/src/user_service/util/logger.i"
-	@echo "... home/kang/coderoot/crowdemo/src/user_service/util/logger.s"
+	@echo "... home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.grpc.pb.o"
+	@echo "... home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.grpc.pb.i"
+	@echo "... home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.grpc.pb.s"
+	@echo "... home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.pb.o"
+	@echo "... home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.pb.i"
+	@echo "... home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.pb.s"
+	@echo "... home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/user_client.o"
+	@echo "... home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/user_client.i"
+	@echo "... home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/user_client.s"
+	@echo "... home/kang/coderoot/crowdemo/crowdemopc/src/user_service/util/logger.o"
+	@echo "... home/kang/coderoot/crowdemo/crowdemopc/src/user_service/util/logger.i"
+	@echo "... home/kang/coderoot/crowdemo/crowdemopc/src/user_service/util/logger.s"
+	@echo "... home/kang/coderoot/crowdemo/testredis/redis.o"
+	@echo "... home/kang/coderoot/crowdemo/testredis/redis.i"
+	@echo "... home/kang/coderoot/crowdemo/testredis/redis.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

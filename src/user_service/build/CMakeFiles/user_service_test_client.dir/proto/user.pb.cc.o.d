@@ -1,7 +1,7 @@
 CMakeFiles/user_service_test_client.dir/proto/user.pb.cc.o: \
- /home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.cc \
+ /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.pb.cc \
  /usr/include/stdc-predef.h \
- /home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.h \
+ /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.pb.h \
  /usr/include/c++/8/limits \
  /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \

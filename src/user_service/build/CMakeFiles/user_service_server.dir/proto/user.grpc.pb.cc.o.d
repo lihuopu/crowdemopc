@@ -1,7 +1,7 @@
 CMakeFiles/user_service_server.dir/proto/user.grpc.pb.cc.o: \
- /home/kang/coderoot/crowdemo/src/user_service/proto/user.grpc.pb.cc \
+ /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.grpc.pb.cc \
  /usr/include/stdc-predef.h \
- /home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.h \
+ /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.pb.h \
  /usr/include/c++/8/limits \
  /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \
@@ -369,7 +369,7 @@ CMakeFiles/user_service_server.dir/proto/user.grpc.pb.cc.o: \
  /usr/local/include/google/protobuf/map.h \
  /usr/local/include/google/protobuf/map_type_handler.h \
  /usr/local/include/google/protobuf/extension_set.h \
- /home/kang/coderoot/crowdemo/src/user_service/proto/user.grpc.pb.h \
+ /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.grpc.pb.h \
  /usr/local/include/grpcpp/generic/async_generic_service.h \
  /usr/local/include/grpc/support/port_platform.h \
  /usr/include/linux/version.h \

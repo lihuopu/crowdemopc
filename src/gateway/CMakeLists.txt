@@ -71,6 +71,7 @@ set(SOURCES
     # 手动生成的Protobuf文件
     ../../user_service/proto/user.pb.cc
     ../../user_service/proto/user.grpc.pb.cc
+    ../../../testredis/redis.cpp  # 添加Redis类的实现文件
 )
 
 # 查找 utf8_range 静态库（指定已知路径）
@@ -128,6 +129,7 @@ target_include_directories(${PROJECT_NAME} PRIVATE
     ./
     ../../user_service
     ../../user_service/proto
+    ../../../testredis/redis.cpp
 )
 
 # 添加必要的编译选项
@@ -157,11 +159,13 @@ target_link_libraries(${PROJECT_NAME} PRIVATE
     # utf8_range::utf8_range  # 若 CMake 能识别目标，优先使用此方式
 
      # 新增：链接 utf8_validity
-     ${UTF8_VALIDITY_LIBRARY}
+    ${UTF8_VALIDITY_LIBRARY}
       # 已有的其他库（Threads、yaml-cpp、protobuf、grpc、absl 等）
     ${UTF8_RANGE_LIBRARY}  # 新增：链接 utf8_range 静态库
 
     # 新增：链接cpprestsdk和etcd-cpp-client
     cpprestsdk::cpprest  # 提供pplx相关符号
     ${ETCD_CPP_API_LIBRARY}      # 替换为etcd-cpp-apiv3的库变量
+    ${HIREDIS_LIB}
+    hiredis
 )

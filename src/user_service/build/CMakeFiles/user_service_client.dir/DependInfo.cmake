@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/kang/coderoot/crowdemo/src/user_service/proto/user.grpc.pb.cc" "CMakeFiles/user_service_client.dir/proto/user.grpc.pb.cc.o" "gcc" "CMakeFiles/user_service_client.dir/proto/user.grpc.pb.cc.o.d"
-  "/home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.cc" "CMakeFiles/user_service_client.dir/proto/user.pb.cc.o" "gcc" "CMakeFiles/user_service_client.dir/proto/user.pb.cc.o.d"
-  "/home/kang/coderoot/crowdemo/src/user_service/service/user_client.cpp" "CMakeFiles/user_service_client.dir/service/user_client.cpp.o" "gcc" "CMakeFiles/user_service_client.dir/service/user_client.cpp.o.d"
-  "/home/kang/coderoot/crowdemo/src/user_service/util/logger.cpp" "CMakeFiles/user_service_client.dir/util/logger.cpp.o" "gcc" "CMakeFiles/user_service_client.dir/util/logger.cpp.o.d"
+  "/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.grpc.pb.cc" "CMakeFiles/user_service_client.dir/proto/user.grpc.pb.cc.o" "gcc" "CMakeFiles/user_service_client.dir/proto/user.grpc.pb.cc.o.d"
+  "/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.pb.cc" "CMakeFiles/user_service_client.dir/proto/user.pb.cc.o" "gcc" "CMakeFiles/user_service_client.dir/proto/user.pb.cc.o.d"
+  "/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/user_client.cpp" "CMakeFiles/user_service_client.dir/service/user_client.cpp.o" "gcc" "CMakeFiles/user_service_client.dir/service/user_client.cpp.o.d"
+  "/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/util/logger.cpp" "CMakeFiles/user_service_client.dir/util/logger.cpp.o" "gcc" "CMakeFiles/user_service_client.dir/util/logger.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -6,16 +6,37 @@
 #include <random>
 #include <sstream>
 #include <iomanip>
+#include <mutex>
 
 namespace gateway::controller {
 
 // 静态成员变量定义
 std::unordered_set<crow::websocket::connection*> WebSocketController::active_connections_;
+std::mutex WebSocketController::mutex_;
+std::unique_ptr<Redis> WebSocketController::redis_client_;
 
-void WebSocketController::handleWebSocketConnection(crow::websocket::connection& conn) {
+// 初始化Redis客户端（在main函数中启动时调用）
+void WebSocketController::initRedisClient() {
+    redis_client_ = std::make_unique<Redis>();
+    if (!redis_client_->connect()) {
+        LOG_ERROR("Redis连接失败，WebSocket无法订阅消息");
+        return;
+    }
+    // 设置Redis消息回调
+    redis_client_->init_notify_handler(onRedisMessage);
+    // 订阅目标通道（例如通道200，与后端一致）
+    int target_channel = 200;
+    if (!redis_client_->subscribe(target_channel)) {
+        LOG_ERROR("订阅Redis通道 " + std::to_string(target_channel) + " 失败");
+    } else {
+        LOG_INFO("成功订阅Redis通道 " + std::to_string(target_channel));
+    }
+}
+
+void WebSocketController::handleWebSocketConnection(crow::websocket::connection& conn){
+    std::lock_guard<std::mutex> lock(mutex_);
     // 生成客户端ID
     std::string client_id = generateClientId();
-    
     // 将连接添加到活跃连接集合
     active_connections_.insert(&conn);
     
@@ -42,6 +63,7 @@ void WebSocketController::handleWebSocketConnection(crow::websocket::connection&
     LOG_INFO("WebSocket客户端连接成功，客户端ID: " + client_id + 
              "，当前连接数: " + std::to_string(active_connections_.size()));
 }
+
 
 void WebSocketController::handleWebSocketMessage(crow::websocket::connection& conn, const std::string& data, bool is_binary) {
     if (is_binary) {
@@ -100,6 +122,26 @@ void WebSocketController::handleWebSocketClose(crow::websocket::connection& conn
     LOG_INFO("WebSocket客户端断开连接，原因: " + reason + 
              "，当前连接数: " + std::to_string(active_connections_.size()));
 }
+
+
+// Redis消息回调：转发到对应通道的所有客户端
+void WebSocketController::onRedisMessage(int channel, const std::string& message) {
+    //std::lock_guard<std::mutex> lock(mutex_);
+    LOG_INFO("收到Redis通道 " + std::to_string(channel) + " 的消息: " + message);
+    
+    // 构建WebSocket消息
+    crow::json::wvalue ws_msg;
+    ws_msg["type"] = "redis_message";
+    ws_msg["channel"] = channel;
+    ws_msg["data"] = message;
+    ws_msg["timestamp"] = std::chrono::duration_cast<std::chrono::seconds>(
+        std::chrono::system_clock::now().time_since_epoch()).count();
+    std::string ws_message = ws_msg.dump();
+    
+    // 广播给所有连接的前端客户端
+    broadcastMessage(ws_msg.dump());
+}
+
 
 void WebSocketController::broadcastMessage(const std::string& message) {
     for (auto* conn : active_connections_) {

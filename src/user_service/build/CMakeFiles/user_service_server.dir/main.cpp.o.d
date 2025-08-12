@@ -1,5 +1,5 @@
 CMakeFiles/user_service_server.dir/main.cpp.o: \
- /home/kang/coderoot/crowdemo/src/user_service/main.cpp \
+ /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/main.cpp \
  /usr/include/stdc-predef.h /usr/local/include/grpcpp/grpcpp.h \
  /usr/local/include/grpc/grpc.h \
  /usr/local/include/grpc/support/port_platform.h /usr/include/features.h \
@@ -295,9 +295,9 @@ CMakeFiles/user_service_server.dir/main.cpp.o: \
  /usr/local/include/grpcpp/server_posix.h \
  /usr/local/include/grpcpp/version_info.h \
  /usr/local/include/grpcpp/ext/proto_server_reflection_plugin.h \
- /home/kang/coderoot/crowdemo/src/user_service/service/grpc_service_impl.h \
- /home/kang/coderoot/crowdemo/src/user_service/service/../proto/user.grpc.pb.h \
- /home/kang/coderoot/crowdemo/src/user_service/service/../proto/user.pb.h \
+ /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/grpc_service_impl.h \
+ /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/../proto/user.grpc.pb.h \
+ /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/../proto/user.pb.h \
  /usr/local/include/google/protobuf/port_def.inc \
  /usr/local/include/google/protobuf/port_undef.inc \
  /usr/local/include/google/protobuf/io/coded_stream.h \
@@ -477,7 +477,7 @@ CMakeFiles/user_service_server.dir/main.cpp.o: \
  /usr/local/include/grpcpp/support/proto_buffer_reader.h \
  /usr/local/include/grpcpp/support/proto_buffer_writer.h \
  /usr/local/include/grpcpp/support/stub_options.h \
- /home/kang/coderoot/crowdemo/src/user_service/util/logger.h \
+ /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/util/logger.h \
  /usr/include/c++/8/iomanip /usr/include/c++/8/locale \
  /usr/include/c++/8/bits/locale_facets_nonio.h \
  /usr/include/c++/8/x86_64-redhat-linux/bits/time_members.h \
@@ -497,7 +497,7 @@ CMakeFiles/user_service_server.dir/main.cpp.o: \
  /usr/include/sys/ucontext.h /usr/include/bits/sigstack.h \
  /usr/include/bits/ss_flags.h /usr/include/bits/types/struct_sigstack.h \
  /usr/include/bits/sigthread.h \
- /home/kang/coderoot/crowdemo/src/user_service/build/../../../testetcd/discovery.h \
+ /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/../../../testetcd/discovery.h \
  /usr/local/include/etcd/Client.hpp /usr/local/include/pplx/pplxtasks.h \
  /usr/local/include/cpprest/details/cpprest_compat.h \
  /usr/local/include/cpprest/details/nosal.h \
@@ -510,5 +510,5 @@ CMakeFiles/user_service_server.dir/main.cpp.o: \
  /usr/local/include/etcd/SyncClient.hpp \
  /usr/local/include/etcd/v3/action_constants.hpp \
  /usr/local/include/etcd/Watcher.hpp /usr/include/c++/8/thread \
- /home/kang/coderoot/crowdemo/src/user_service/build/../../../testetcd/registry.h \
+ /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/../../../testetcd/registry.h \
  /usr/local/include/etcd/KeepAlive.hpp

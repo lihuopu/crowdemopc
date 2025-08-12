@@ -107,6 +107,16 @@ else()
     message(STATUS "找到 etcd-cpp-api 库: ${ETCD_API_LIB}")
 endif()
 
+# 查找hiredis库（Redis C客户端）
+find_library(HIREDIS_LIB 
+    NAMES hiredis 
+    PATHS /usr/local/lib64 /usr/lib64
+)
+
+if(NOT HIREDIS_LIB)
+    message(FATAL_ERROR "未找到hiredis库，请安装（sudo apt install libhiredis-dev）")
+endif()
+
 # 定义所有目标共享的库（统一管理，避免重复）
 set(COMMON_LIBS
     ${Protobuf_LIBRARIES}
@@ -154,6 +164,7 @@ include_directories(
     # 若依赖上层项目的头文件，补充路径
     # 示例：若用到 gateway 的工具类
     /root/etcd-cpp-apiv3/include
+    ../../testredis/
     
 )
 
@@ -175,6 +186,9 @@ add_executable(user_service_server
     proto/user.pb.h
     proto/user.grpc.pb.cc
     proto/user.grpc.pb.h
+    # 新增：Redis相关文件
+    ../../testredis/redis.cpp   # Redis类实现
+    ../../testredis/redis.hpp   # Redis类声明
 )
 
 # 用户服务客户端库
@@ -213,6 +227,7 @@ target_link_libraries(user_service_server
     ${Boost_LIBRARIES}   # 新增：boost 依赖库
     ${ETCD_API_LIB}  # 确保 etcd 库在链接列表中
     ${COMMON_LIBS}
+    ${HIREDIS_LIB}  # 新增：链接hiredis库
 )
 
 target_link_libraries(user_service_client

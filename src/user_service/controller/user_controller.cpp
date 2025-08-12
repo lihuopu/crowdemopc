@@ -1,7 +1,9 @@
 #include "user_controller.h"
 #include "../service/user_service.h"
+#include "../../../testredis/redis.hpp"
 #include "../util/logger.h"
 #include <iostream>
+#include <sstream>
 #include <chrono>
 
 namespace user_service::controller {
@@ -10,6 +12,35 @@ grpc::Status UserController::GetUserInfo(grpc::ServerContext* context,
                                          const user::GetUserInfoRequest* request,
                                          user::GetUserInfoResponse* response) {
     LOG_INFO("收到获取用户信息请求，用户ID: " + std::to_string(request->user_id()));
+    
+    
+    // 定义Redis发布通道（可自定义，需与redis_client订阅的通道一致）
+    const int REDIS_CHANNEL = 200;  // 避免与现有通道冲突
+
+    // 创建Redis实例并连接
+    Redis redis;
+    if (!redis.connect()) {
+        LOG_WARN("Redis连接失败，无法发布消息");
+    }
+
+    // 构造请求信息字符串（JSON格式便于解析）
+    std::stringstream req_ss;
+    req_ss << "{"
+        << "\"type\":\"request\","
+        << "\"user_id\":" << request->user_id() << ","
+        << "\"timestamp\":" << std::chrono::duration_cast<std::chrono::seconds>(
+            std::chrono::system_clock::now().time_since_epoch()).count()
+        << "}";
+    std::string req_msg = req_ss.str();
+
+    // 发布请求信息到Redis通道（修正日志输出）
+    if (redis.connect()) {
+        redis.publish(REDIS_CHANNEL, req_msg);
+        // 使用stringstream拼接日志内容
+        std::stringstream log_ss;
+        log_ss << "已发布请求信息到Redis通道 " << REDIS_CHANNEL << ": " << req_msg;
+        LOG_INFO(log_ss.str());  // 传入拼接后的字符串
+    }
     
     // 验证用户ID
     if (!validateUserId(request->user_id())) {

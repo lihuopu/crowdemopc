@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kang/coderoot/crowdemo/src/user_service
+CMAKE_SOURCE_DIR = /home/kang/coderoot/crowdemo/crowdemopc/src/user_service
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kang/coderoot/crowdemo/src/user_service/build
+CMAKE_BINARY_DIR = /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/user_service_test_client.dir/depend.make
@@ -72,72 +72,72 @@ include CMakeFiles/user_service_test_client.dir/flags.make
 CMakeFiles/user_service_test_client.dir/test_client.cpp.o: CMakeFiles/user_service_test_client.dir/flags.make
 CMakeFiles/user_service_test_client.dir/test_client.cpp.o: ../test_client.cpp
 CMakeFiles/user_service_test_client.dir/test_client.cpp.o: CMakeFiles/user_service_test_client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kang/coderoot/crowdemo/src/user_service/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/user_service_test_client.dir/test_client.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/user_service_test_client.dir/test_client.cpp.o -MF CMakeFiles/user_service_test_client.dir/test_client.cpp.o.d -o CMakeFiles/user_service_test_client.dir/test_client.cpp.o -c /home/kang/coderoot/crowdemo/src/user_service/test_client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/user_service_test_client.dir/test_client.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/user_service_test_client.dir/test_client.cpp.o -MF CMakeFiles/user_service_test_client.dir/test_client.cpp.o.d -o CMakeFiles/user_service_test_client.dir/test_client.cpp.o -c /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/test_client.cpp
 
 CMakeFiles/user_service_test_client.dir/test_client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/user_service_test_client.dir/test_client.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kang/coderoot/crowdemo/src/user_service/test_client.cpp > CMakeFiles/user_service_test_client.dir/test_client.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/test_client.cpp > CMakeFiles/user_service_test_client.dir/test_client.cpp.i
 
 CMakeFiles/user_service_test_client.dir/test_client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/user_service_test_client.dir/test_client.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kang/coderoot/crowdemo/src/user_service/test_client.cpp -o CMakeFiles/user_service_test_client.dir/test_client.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/test_client.cpp -o CMakeFiles/user_service_test_client.dir/test_client.cpp.s
 
 CMakeFiles/user_service_test_client.dir/service/user_client.cpp.o: CMakeFiles/user_service_test_client.dir/flags.make
 CMakeFiles/user_service_test_client.dir/service/user_client.cpp.o: ../service/user_client.cpp
 CMakeFiles/user_service_test_client.dir/service/user_client.cpp.o: CMakeFiles/user_service_test_client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kang/coderoot/crowdemo/src/user_service/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/user_service_test_client.dir/service/user_client.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/user_service_test_client.dir/service/user_client.cpp.o -MF CMakeFiles/user_service_test_client.dir/service/user_client.cpp.o.d -o CMakeFiles/user_service_test_client.dir/service/user_client.cpp.o -c /home/kang/coderoot/crowdemo/src/user_service/service/user_client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/user_service_test_client.dir/service/user_client.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/user_service_test_client.dir/service/user_client.cpp.o -MF CMakeFiles/user_service_test_client.dir/service/user_client.cpp.o.d -o CMakeFiles/user_service_test_client.dir/service/user_client.cpp.o -c /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/user_client.cpp
 
 CMakeFiles/user_service_test_client.dir/service/user_client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/user_service_test_client.dir/service/user_client.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kang/coderoot/crowdemo/src/user_service/service/user_client.cpp > CMakeFiles/user_service_test_client.dir/service/user_client.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/user_client.cpp > CMakeFiles/user_service_test_client.dir/service/user_client.cpp.i
 
 CMakeFiles/user_service_test_client.dir/service/user_client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/user_service_test_client.dir/service/user_client.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kang/coderoot/crowdemo/src/user_service/service/user_client.cpp -o CMakeFiles/user_service_test_client.dir/service/user_client.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/user_client.cpp -o CMakeFiles/user_service_test_client.dir/service/user_client.cpp.s
 
 CMakeFiles/user_service_test_client.dir/util/logger.cpp.o: CMakeFiles/user_service_test_client.dir/flags.make
 CMakeFiles/user_service_test_client.dir/util/logger.cpp.o: ../util/logger.cpp
 CMakeFiles/user_service_test_client.dir/util/logger.cpp.o: CMakeFiles/user_service_test_client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kang/coderoot/crowdemo/src/user_service/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/user_service_test_client.dir/util/logger.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/user_service_test_client.dir/util/logger.cpp.o -MF CMakeFiles/user_service_test_client.dir/util/logger.cpp.o.d -o CMakeFiles/user_service_test_client.dir/util/logger.cpp.o -c /home/kang/coderoot/crowdemo/src/user_service/util/logger.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/user_service_test_client.dir/util/logger.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/user_service_test_client.dir/util/logger.cpp.o -MF CMakeFiles/user_service_test_client.dir/util/logger.cpp.o.d -o CMakeFiles/user_service_test_client.dir/util/logger.cpp.o -c /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/util/logger.cpp
 
 CMakeFiles/user_service_test_client.dir/util/logger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/user_service_test_client.dir/util/logger.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kang/coderoot/crowdemo/src/user_service/util/logger.cpp > CMakeFiles/user_service_test_client.dir/util/logger.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/util/logger.cpp > CMakeFiles/user_service_test_client.dir/util/logger.cpp.i
 
 CMakeFiles/user_service_test_client.dir/util/logger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/user_service_test_client.dir/util/logger.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kang/coderoot/crowdemo/src/user_service/util/logger.cpp -o CMakeFiles/user_service_test_client.dir/util/logger.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/util/logger.cpp -o CMakeFiles/user_service_test_client.dir/util/logger.cpp.s
 
 CMakeFiles/user_service_test_client.dir/proto/user.pb.cc.o: CMakeFiles/user_service_test_client.dir/flags.make
 CMakeFiles/user_service_test_client.dir/proto/user.pb.cc.o: ../proto/user.pb.cc
 CMakeFiles/user_service_test_client.dir/proto/user.pb.cc.o: CMakeFiles/user_service_test_client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kang/coderoot/crowdemo/src/user_service/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/user_service_test_client.dir/proto/user.pb.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/user_service_test_client.dir/proto/user.pb.cc.o -MF CMakeFiles/user_service_test_client.dir/proto/user.pb.cc.o.d -o CMakeFiles/user_service_test_client.dir/proto/user.pb.cc.o -c /home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/user_service_test_client.dir/proto/user.pb.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/user_service_test_client.dir/proto/user.pb.cc.o -MF CMakeFiles/user_service_test_client.dir/proto/user.pb.cc.o.d -o CMakeFiles/user_service_test_client.dir/proto/user.pb.cc.o -c /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.pb.cc
 
 CMakeFiles/user_service_test_client.dir/proto/user.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/user_service_test_client.dir/proto/user.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.cc > CMakeFiles/user_service_test_client.dir/proto/user.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.pb.cc > CMakeFiles/user_service_test_client.dir/proto/user.pb.cc.i
 
 CMakeFiles/user_service_test_client.dir/proto/user.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/user_service_test_client.dir/proto/user.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.cc -o CMakeFiles/user_service_test_client.dir/proto/user.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.pb.cc -o CMakeFiles/user_service_test_client.dir/proto/user.pb.cc.s
 
 CMakeFiles/user_service_test_client.dir/proto/user.grpc.pb.cc.o: CMakeFiles/user_service_test_client.dir/flags.make
 CMakeFiles/user_service_test_client.dir/proto/user.grpc.pb.cc.o: ../proto/user.grpc.pb.cc
 CMakeFiles/user_service_test_client.dir/proto/user.grpc.pb.cc.o: CMakeFiles/user_service_test_client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kang/coderoot/crowdemo/src/user_service/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/user_service_test_client.dir/proto/user.grpc.pb.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/user_service_test_client.dir/proto/user.grpc.pb.cc.o -MF CMakeFiles/user_service_test_client.dir/proto/user.grpc.pb.cc.o.d -o CMakeFiles/user_service_test_client.dir/proto/user.grpc.pb.cc.o -c /home/kang/coderoot/crowdemo/src/user_service/proto/user.grpc.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/user_service_test_client.dir/proto/user.grpc.pb.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/user_service_test_client.dir/proto/user.grpc.pb.cc.o -MF CMakeFiles/user_service_test_client.dir/proto/user.grpc.pb.cc.o.d -o CMakeFiles/user_service_test_client.dir/proto/user.grpc.pb.cc.o -c /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.grpc.pb.cc
 
 CMakeFiles/user_service_test_client.dir/proto/user.grpc.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/user_service_test_client.dir/proto/user.grpc.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kang/coderoot/crowdemo/src/user_service/proto/user.grpc.pb.cc > CMakeFiles/user_service_test_client.dir/proto/user.grpc.pb.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.grpc.pb.cc > CMakeFiles/user_service_test_client.dir/proto/user.grpc.pb.cc.i
 
 CMakeFiles/user_service_test_client.dir/proto/user.grpc.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/user_service_test_client.dir/proto/user.grpc.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kang/coderoot/crowdemo/src/user_service/proto/user.grpc.pb.cc -o CMakeFiles/user_service_test_client.dir/proto/user.grpc.pb.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.grpc.pb.cc -o CMakeFiles/user_service_test_client.dir/proto/user.grpc.pb.cc.s
 
 # Object files for target user_service_test_client
 user_service_test_client_OBJECTS = \
@@ -241,7 +241,7 @@ user_service_test_client: /usr/local/lib64/libabsl_spinlock_wait.so.2301.0.0
 user_service_test_client: /usr/local/lib64/libabsl_int128.so.2301.0.0
 user_service_test_client: /usr/local/lib64/libabsl_log_severity.so.2301.0.0
 user_service_test_client: CMakeFiles/user_service_test_client.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kang/coderoot/crowdemo/src/user_service/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable user_service_test_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable user_service_test_client"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/user_service_test_client.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -253,6 +253,6 @@ CMakeFiles/user_service_test_client.dir/clean:
 .PHONY : CMakeFiles/user_service_test_client.dir/clean
 
 CMakeFiles/user_service_test_client.dir/depend:
-	cd /home/kang/coderoot/crowdemo/src/user_service/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kang/coderoot/crowdemo/src/user_service /home/kang/coderoot/crowdemo/src/user_service /home/kang/coderoot/crowdemo/src/user_service/build /home/kang/coderoot/crowdemo/src/user_service/build /home/kang/coderoot/crowdemo/src/user_service/build/CMakeFiles/user_service_test_client.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kang/coderoot/crowdemo/crowdemopc/src/user_service /home/kang/coderoot/crowdemo/crowdemopc/src/user_service /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/build /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/build /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/build/CMakeFiles/user_service_test_client.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/user_service_test_client.dir/depend
 

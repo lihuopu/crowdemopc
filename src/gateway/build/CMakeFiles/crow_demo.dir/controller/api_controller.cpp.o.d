@@ -1,7 +1,7 @@
 CMakeFiles/crow_demo.dir/controller/api_controller.cpp.o: \
- /home/kang/coderoot/crowdemo/src/gateway/controller/api_controller.cpp \
+ /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/controller/api_controller.cpp \
  /usr/include/stdc-predef.h \
- /home/kang/coderoot/crowdemo/src/gateway/controller/api_controller.h \
+ /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/controller/api_controller.h \
  /usr/local/include/crow/json.h /usr/local/include/c++/11.2.0/string \
  /usr/local/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/local/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -823,8 +823,8 @@ CMakeFiles/crow_demo.dir/controller/api_controller.cpp.o: \
  /usr/local/include/asio/impl/write_at.hpp \
  /usr/local/include/crow/common.h /usr/local/include/crow/ci_map.h \
  /usr/local/include/crow/query_string.h \
- /home/kang/coderoot/crowdemo/src/gateway/controller/../service/api_service.h \
- /home/kang/coderoot/crowdemo/src/gateway/controller/../service/../../../testetcd/discovery.h \
+ /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/controller/../service/api_service.h \
+ /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/controller/../service/../../../testetcd/discovery.h \
  /usr/local/include/etcd/Client.hpp /usr/local/include/c++/11.2.0/map \
  /usr/local/include/c++/11.2.0/bits/stl_tree.h \
  /usr/local/include/c++/11.2.0/bits/stl_map.h \
@@ -841,5 +841,5 @@ CMakeFiles/crow_demo.dir/controller/api_controller.cpp.o: \
  /usr/local/include/etcd/v3/action_constants.hpp \
  /usr/local/include/etcd/Watcher.hpp /usr/local/include/c++/11.2.0/thread \
  /usr/local/include/c++/11.2.0/bits/this_thread_sleep.h \
- /home/kang/coderoot/crowdemo/src/gateway/controller/../service/../../../testetcd/registry.h \
+ /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/controller/../service/../../../testetcd/registry.h \
  /usr/local/include/etcd/KeepAlive.hpp

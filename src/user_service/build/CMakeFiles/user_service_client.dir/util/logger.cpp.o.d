@@ -1,7 +1,7 @@
 CMakeFiles/user_service_client.dir/util/logger.cpp.o: \
- /home/kang/coderoot/crowdemo/src/user_service/util/logger.cpp \
+ /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/util/logger.cpp \
  /usr/include/stdc-predef.h \
- /home/kang/coderoot/crowdemo/src/user_service/util/logger.h \
+ /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/util/logger.h \
  /usr/include/c++/8/string \
  /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \

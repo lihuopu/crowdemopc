@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DCARES_STATICLIB
 
-CXX_INCLUDES = -I/home/kang/coderoot/crowdemo/src/user_service/build -I/home/kang/coderoot/crowdemo/src/user_service -I/root/etcd-cpp-apiv3/include
+CXX_INCLUDES = -I/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/build -I/home/kang/coderoot/crowdemo/crowdemopc/src/user_service -I/root/etcd-cpp-apiv3/include -I/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/../../testredis
 
 CXX_FLAGS = -Wall -Wextra -Wno-unused-parameter -std=gnu++17
 

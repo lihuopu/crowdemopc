@@ -1,7 +1,7 @@
 CMakeFiles/crow_demo.dir/util/request_util.cpp.o: \
- /home/kang/coderoot/crowdemo/src/gateway/util/request_util.cpp \
+ /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/util/request_util.cpp \
  /usr/include/stdc-predef.h \
- /home/kang/coderoot/crowdemo/src/gateway/util/request_util.h \
+ /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/util/request_util.h \
  /usr/local/include/c++/11.2.0/string \
  /usr/local/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/local/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/os_defines.h \

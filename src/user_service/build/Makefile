@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kang/coderoot/crowdemo/src/user_service
+CMAKE_SOURCE_DIR = /home/kang/coderoot/crowdemo/crowdemopc/src/user_service
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kang/coderoot/crowdemo/src/user_service/build
+CMAKE_BINARY_DIR = /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kang/coderoot/crowdemo/src/user_service/build/CMakeFiles /home/kang/coderoot/crowdemo/src/user_service/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/build/CMakeFiles /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kang/coderoot/crowdemo/src/user_service/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -178,6 +178,30 @@ controller/user_controller.s: controller/user_controller.cpp.s
 controller/user_controller.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/user_service_server.dir/build.make CMakeFiles/user_service_server.dir/controller/user_controller.cpp.s
 .PHONY : controller/user_controller.cpp.s
+
+home/kang/coderoot/crowdemo/crowdemopc/testredis/redis.o: home/kang/coderoot/crowdemo/crowdemopc/testredis/redis.cpp.o
+.PHONY : home/kang/coderoot/crowdemo/crowdemopc/testredis/redis.o
+
+# target to build an object file
+home/kang/coderoot/crowdemo/crowdemopc/testredis/redis.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/user_service_server.dir/build.make CMakeFiles/user_service_server.dir/home/kang/coderoot/crowdemo/crowdemopc/testredis/redis.cpp.o
+.PHONY : home/kang/coderoot/crowdemo/crowdemopc/testredis/redis.cpp.o
+
+home/kang/coderoot/crowdemo/crowdemopc/testredis/redis.i: home/kang/coderoot/crowdemo/crowdemopc/testredis/redis.cpp.i
+.PHONY : home/kang/coderoot/crowdemo/crowdemopc/testredis/redis.i
+
+# target to preprocess a source file
+home/kang/coderoot/crowdemo/crowdemopc/testredis/redis.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/user_service_server.dir/build.make CMakeFiles/user_service_server.dir/home/kang/coderoot/crowdemo/crowdemopc/testredis/redis.cpp.i
+.PHONY : home/kang/coderoot/crowdemo/crowdemopc/testredis/redis.cpp.i
+
+home/kang/coderoot/crowdemo/crowdemopc/testredis/redis.s: home/kang/coderoot/crowdemo/crowdemopc/testredis/redis.cpp.s
+.PHONY : home/kang/coderoot/crowdemo/crowdemopc/testredis/redis.s
+
+# target to generate assembly for a file
+home/kang/coderoot/crowdemo/crowdemopc/testredis/redis.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/user_service_server.dir/build.make CMakeFiles/user_service_server.dir/home/kang/coderoot/crowdemo/crowdemopc/testredis/redis.cpp.s
+.PHONY : home/kang/coderoot/crowdemo/crowdemopc/testredis/redis.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -409,6 +433,9 @@ help:
 	@echo "... controller/user_controller.o"
 	@echo "... controller/user_controller.i"
 	@echo "... controller/user_controller.s"
+	@echo "... home/kang/coderoot/crowdemo/crowdemopc/testredis/redis.o"
+	@echo "... home/kang/coderoot/crowdemo/crowdemopc/testredis/redis.i"
+	@echo "... home/kang/coderoot/crowdemo/crowdemopc/testredis/redis.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/user_service_server.dir/controller/user_controller.cpp.o"
   "CMakeFiles/user_service_server.dir/controller/user_controller.cpp.o.d"
+  "CMakeFiles/user_service_server.dir/home/kang/coderoot/crowdemo/crowdemopc/testredis/redis.cpp.o"
+  "CMakeFiles/user_service_server.dir/home/kang/coderoot/crowdemo/crowdemopc/testredis/redis.cpp.o.d"
   "CMakeFiles/user_service_server.dir/main.cpp.o"
   "CMakeFiles/user_service_server.dir/main.cpp.o.d"
   "CMakeFiles/user_service_server.dir/proto/user.grpc.pb.cc.o"

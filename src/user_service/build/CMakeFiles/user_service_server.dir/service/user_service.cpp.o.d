@@ -1,8 +1,8 @@
 CMakeFiles/user_service_server.dir/service/user_service.cpp.o: \
- /home/kang/coderoot/crowdemo/src/user_service/service/user_service.cpp \
+ /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/user_service.cpp \
  /usr/include/stdc-predef.h \
- /home/kang/coderoot/crowdemo/src/user_service/service/user_service.h \
- /home/kang/coderoot/crowdemo/src/user_service/service/../proto/user.pb.h \
+ /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/user_service.h \
+ /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/../proto/user.pb.h \
  /usr/include/c++/8/limits \
  /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \
@@ -370,7 +370,7 @@ CMakeFiles/user_service_server.dir/service/user_service.cpp.o: \
  /usr/local/include/google/protobuf/map.h \
  /usr/local/include/google/protobuf/map_type_handler.h \
  /usr/local/include/google/protobuf/extension_set.h \
- /home/kang/coderoot/crowdemo/src/user_service/service/../util/logger.h \
+ /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/../util/logger.h \
  /usr/include/c++/8/iomanip /usr/include/c++/8/locale \
  /usr/include/c++/8/bits/locale_facets_nonio.h \
  /usr/include/c++/8/x86_64-redhat-linux/bits/time_members.h \

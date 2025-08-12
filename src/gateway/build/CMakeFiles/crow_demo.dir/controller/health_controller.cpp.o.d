@@ -1,7 +1,7 @@
 CMakeFiles/crow_demo.dir/controller/health_controller.cpp.o: \
- /home/kang/coderoot/crowdemo/src/gateway/controller/health_controller.cpp \
+ /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/controller/health_controller.cpp \
  /usr/include/stdc-predef.h \
- /home/kang/coderoot/crowdemo/src/gateway/controller/health_controller.h \
+ /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/controller/health_controller.h \
  /usr/local/include/crow/json.h /usr/local/include/c++/11.2.0/string \
  /usr/local/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/local/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -230,4 +230,4 @@ CMakeFiles/crow_demo.dir/controller/health_controller.cpp.o: \
  /usr/local/include/c++/11.2.0/bits/fs_dir.h \
  /usr/local/include/c++/11.2.0/bits/fs_ops.h \
  /usr/local/include/crow/returnable.h /usr/local/include/crow/logging.h \
- /home/kang/coderoot/crowdemo/src/gateway/controller/../service/health_service.h
+ /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/controller/../service/health_service.h

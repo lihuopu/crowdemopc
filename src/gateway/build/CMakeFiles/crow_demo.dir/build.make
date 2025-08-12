@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kang/coderoot/crowdemo/src/gateway
+CMAKE_SOURCE_DIR = /home/kang/coderoot/crowdemo/crowdemopc/src/gateway
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kang/coderoot/crowdemo/src/gateway/build
+CMAKE_BINARY_DIR = /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/crow_demo.dir/depend.make
@@ -72,254 +72,268 @@ include CMakeFiles/crow_demo.dir/flags.make
 CMakeFiles/crow_demo.dir/main.cpp.o: CMakeFiles/crow_demo.dir/flags.make
 CMakeFiles/crow_demo.dir/main.cpp.o: ../main.cpp
 CMakeFiles/crow_demo.dir/main.cpp.o: CMakeFiles/crow_demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kang/coderoot/crowdemo/src/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/crow_demo.dir/main.cpp.o"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/crow_demo.dir/main.cpp.o -MF CMakeFiles/crow_demo.dir/main.cpp.o.d -o CMakeFiles/crow_demo.dir/main.cpp.o -c /home/kang/coderoot/crowdemo/src/gateway/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kang/coderoot/crowdemo/crowdemopc/src/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/crow_demo.dir/main.cpp.o"
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/crow_demo.dir/main.cpp.o -MF CMakeFiles/crow_demo.dir/main.cpp.o.d -o CMakeFiles/crow_demo.dir/main.cpp.o -c /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/main.cpp
 
 CMakeFiles/crow_demo.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/crow_demo.dir/main.cpp.i"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kang/coderoot/crowdemo/src/gateway/main.cpp > CMakeFiles/crow_demo.dir/main.cpp.i
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/main.cpp > CMakeFiles/crow_demo.dir/main.cpp.i
 
 CMakeFiles/crow_demo.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crow_demo.dir/main.cpp.s"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kang/coderoot/crowdemo/src/gateway/main.cpp -o CMakeFiles/crow_demo.dir/main.cpp.s
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/main.cpp -o CMakeFiles/crow_demo.dir/main.cpp.s
 
 CMakeFiles/crow_demo.dir/util/response_util.cpp.o: CMakeFiles/crow_demo.dir/flags.make
 CMakeFiles/crow_demo.dir/util/response_util.cpp.o: ../util/response_util.cpp
 CMakeFiles/crow_demo.dir/util/response_util.cpp.o: CMakeFiles/crow_demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kang/coderoot/crowdemo/src/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/crow_demo.dir/util/response_util.cpp.o"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/crow_demo.dir/util/response_util.cpp.o -MF CMakeFiles/crow_demo.dir/util/response_util.cpp.o.d -o CMakeFiles/crow_demo.dir/util/response_util.cpp.o -c /home/kang/coderoot/crowdemo/src/gateway/util/response_util.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kang/coderoot/crowdemo/crowdemopc/src/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/crow_demo.dir/util/response_util.cpp.o"
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/crow_demo.dir/util/response_util.cpp.o -MF CMakeFiles/crow_demo.dir/util/response_util.cpp.o.d -o CMakeFiles/crow_demo.dir/util/response_util.cpp.o -c /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/util/response_util.cpp
 
 CMakeFiles/crow_demo.dir/util/response_util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/crow_demo.dir/util/response_util.cpp.i"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kang/coderoot/crowdemo/src/gateway/util/response_util.cpp > CMakeFiles/crow_demo.dir/util/response_util.cpp.i
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/util/response_util.cpp > CMakeFiles/crow_demo.dir/util/response_util.cpp.i
 
 CMakeFiles/crow_demo.dir/util/response_util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crow_demo.dir/util/response_util.cpp.s"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kang/coderoot/crowdemo/src/gateway/util/response_util.cpp -o CMakeFiles/crow_demo.dir/util/response_util.cpp.s
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/util/response_util.cpp -o CMakeFiles/crow_demo.dir/util/response_util.cpp.s
 
 CMakeFiles/crow_demo.dir/util/request_util.cpp.o: CMakeFiles/crow_demo.dir/flags.make
 CMakeFiles/crow_demo.dir/util/request_util.cpp.o: ../util/request_util.cpp
 CMakeFiles/crow_demo.dir/util/request_util.cpp.o: CMakeFiles/crow_demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kang/coderoot/crowdemo/src/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/crow_demo.dir/util/request_util.cpp.o"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/crow_demo.dir/util/request_util.cpp.o -MF CMakeFiles/crow_demo.dir/util/request_util.cpp.o.d -o CMakeFiles/crow_demo.dir/util/request_util.cpp.o -c /home/kang/coderoot/crowdemo/src/gateway/util/request_util.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kang/coderoot/crowdemo/crowdemopc/src/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/crow_demo.dir/util/request_util.cpp.o"
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/crow_demo.dir/util/request_util.cpp.o -MF CMakeFiles/crow_demo.dir/util/request_util.cpp.o.d -o CMakeFiles/crow_demo.dir/util/request_util.cpp.o -c /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/util/request_util.cpp
 
 CMakeFiles/crow_demo.dir/util/request_util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/crow_demo.dir/util/request_util.cpp.i"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kang/coderoot/crowdemo/src/gateway/util/request_util.cpp > CMakeFiles/crow_demo.dir/util/request_util.cpp.i
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/util/request_util.cpp > CMakeFiles/crow_demo.dir/util/request_util.cpp.i
 
 CMakeFiles/crow_demo.dir/util/request_util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crow_demo.dir/util/request_util.cpp.s"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kang/coderoot/crowdemo/src/gateway/util/request_util.cpp -o CMakeFiles/crow_demo.dir/util/request_util.cpp.s
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/util/request_util.cpp -o CMakeFiles/crow_demo.dir/util/request_util.cpp.s
 
 CMakeFiles/crow_demo.dir/util/logger.cpp.o: CMakeFiles/crow_demo.dir/flags.make
 CMakeFiles/crow_demo.dir/util/logger.cpp.o: ../util/logger.cpp
 CMakeFiles/crow_demo.dir/util/logger.cpp.o: CMakeFiles/crow_demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kang/coderoot/crowdemo/src/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/crow_demo.dir/util/logger.cpp.o"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/crow_demo.dir/util/logger.cpp.o -MF CMakeFiles/crow_demo.dir/util/logger.cpp.o.d -o CMakeFiles/crow_demo.dir/util/logger.cpp.o -c /home/kang/coderoot/crowdemo/src/gateway/util/logger.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kang/coderoot/crowdemo/crowdemopc/src/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/crow_demo.dir/util/logger.cpp.o"
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/crow_demo.dir/util/logger.cpp.o -MF CMakeFiles/crow_demo.dir/util/logger.cpp.o.d -o CMakeFiles/crow_demo.dir/util/logger.cpp.o -c /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/util/logger.cpp
 
 CMakeFiles/crow_demo.dir/util/logger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/crow_demo.dir/util/logger.cpp.i"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kang/coderoot/crowdemo/src/gateway/util/logger.cpp > CMakeFiles/crow_demo.dir/util/logger.cpp.i
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/util/logger.cpp > CMakeFiles/crow_demo.dir/util/logger.cpp.i
 
 CMakeFiles/crow_demo.dir/util/logger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crow_demo.dir/util/logger.cpp.s"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kang/coderoot/crowdemo/src/gateway/util/logger.cpp -o CMakeFiles/crow_demo.dir/util/logger.cpp.s
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/util/logger.cpp -o CMakeFiles/crow_demo.dir/util/logger.cpp.s
 
 CMakeFiles/crow_demo.dir/util/config.cpp.o: CMakeFiles/crow_demo.dir/flags.make
 CMakeFiles/crow_demo.dir/util/config.cpp.o: ../util/config.cpp
 CMakeFiles/crow_demo.dir/util/config.cpp.o: CMakeFiles/crow_demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kang/coderoot/crowdemo/src/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/crow_demo.dir/util/config.cpp.o"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/crow_demo.dir/util/config.cpp.o -MF CMakeFiles/crow_demo.dir/util/config.cpp.o.d -o CMakeFiles/crow_demo.dir/util/config.cpp.o -c /home/kang/coderoot/crowdemo/src/gateway/util/config.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kang/coderoot/crowdemo/crowdemopc/src/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/crow_demo.dir/util/config.cpp.o"
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/crow_demo.dir/util/config.cpp.o -MF CMakeFiles/crow_demo.dir/util/config.cpp.o.d -o CMakeFiles/crow_demo.dir/util/config.cpp.o -c /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/util/config.cpp
 
 CMakeFiles/crow_demo.dir/util/config.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/crow_demo.dir/util/config.cpp.i"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kang/coderoot/crowdemo/src/gateway/util/config.cpp > CMakeFiles/crow_demo.dir/util/config.cpp.i
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/util/config.cpp > CMakeFiles/crow_demo.dir/util/config.cpp.i
 
 CMakeFiles/crow_demo.dir/util/config.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crow_demo.dir/util/config.cpp.s"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kang/coderoot/crowdemo/src/gateway/util/config.cpp -o CMakeFiles/crow_demo.dir/util/config.cpp.s
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/util/config.cpp -o CMakeFiles/crow_demo.dir/util/config.cpp.s
 
 CMakeFiles/crow_demo.dir/service/health_service.cpp.o: CMakeFiles/crow_demo.dir/flags.make
 CMakeFiles/crow_demo.dir/service/health_service.cpp.o: ../service/health_service.cpp
 CMakeFiles/crow_demo.dir/service/health_service.cpp.o: CMakeFiles/crow_demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kang/coderoot/crowdemo/src/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/crow_demo.dir/service/health_service.cpp.o"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/crow_demo.dir/service/health_service.cpp.o -MF CMakeFiles/crow_demo.dir/service/health_service.cpp.o.d -o CMakeFiles/crow_demo.dir/service/health_service.cpp.o -c /home/kang/coderoot/crowdemo/src/gateway/service/health_service.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kang/coderoot/crowdemo/crowdemopc/src/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/crow_demo.dir/service/health_service.cpp.o"
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/crow_demo.dir/service/health_service.cpp.o -MF CMakeFiles/crow_demo.dir/service/health_service.cpp.o.d -o CMakeFiles/crow_demo.dir/service/health_service.cpp.o -c /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/service/health_service.cpp
 
 CMakeFiles/crow_demo.dir/service/health_service.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/crow_demo.dir/service/health_service.cpp.i"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kang/coderoot/crowdemo/src/gateway/service/health_service.cpp > CMakeFiles/crow_demo.dir/service/health_service.cpp.i
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/service/health_service.cpp > CMakeFiles/crow_demo.dir/service/health_service.cpp.i
 
 CMakeFiles/crow_demo.dir/service/health_service.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crow_demo.dir/service/health_service.cpp.s"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kang/coderoot/crowdemo/src/gateway/service/health_service.cpp -o CMakeFiles/crow_demo.dir/service/health_service.cpp.s
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/service/health_service.cpp -o CMakeFiles/crow_demo.dir/service/health_service.cpp.s
 
 CMakeFiles/crow_demo.dir/service/hello_service.cpp.o: CMakeFiles/crow_demo.dir/flags.make
 CMakeFiles/crow_demo.dir/service/hello_service.cpp.o: ../service/hello_service.cpp
 CMakeFiles/crow_demo.dir/service/hello_service.cpp.o: CMakeFiles/crow_demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kang/coderoot/crowdemo/src/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/crow_demo.dir/service/hello_service.cpp.o"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/crow_demo.dir/service/hello_service.cpp.o -MF CMakeFiles/crow_demo.dir/service/hello_service.cpp.o.d -o CMakeFiles/crow_demo.dir/service/hello_service.cpp.o -c /home/kang/coderoot/crowdemo/src/gateway/service/hello_service.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kang/coderoot/crowdemo/crowdemopc/src/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/crow_demo.dir/service/hello_service.cpp.o"
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/crow_demo.dir/service/hello_service.cpp.o -MF CMakeFiles/crow_demo.dir/service/hello_service.cpp.o.d -o CMakeFiles/crow_demo.dir/service/hello_service.cpp.o -c /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/service/hello_service.cpp
 
 CMakeFiles/crow_demo.dir/service/hello_service.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/crow_demo.dir/service/hello_service.cpp.i"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kang/coderoot/crowdemo/src/gateway/service/hello_service.cpp > CMakeFiles/crow_demo.dir/service/hello_service.cpp.i
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/service/hello_service.cpp > CMakeFiles/crow_demo.dir/service/hello_service.cpp.i
 
 CMakeFiles/crow_demo.dir/service/hello_service.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crow_demo.dir/service/hello_service.cpp.s"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kang/coderoot/crowdemo/src/gateway/service/hello_service.cpp -o CMakeFiles/crow_demo.dir/service/hello_service.cpp.s
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/service/hello_service.cpp -o CMakeFiles/crow_demo.dir/service/hello_service.cpp.s
 
 CMakeFiles/crow_demo.dir/service/calculator_service.cpp.o: CMakeFiles/crow_demo.dir/flags.make
 CMakeFiles/crow_demo.dir/service/calculator_service.cpp.o: ../service/calculator_service.cpp
 CMakeFiles/crow_demo.dir/service/calculator_service.cpp.o: CMakeFiles/crow_demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kang/coderoot/crowdemo/src/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/crow_demo.dir/service/calculator_service.cpp.o"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/crow_demo.dir/service/calculator_service.cpp.o -MF CMakeFiles/crow_demo.dir/service/calculator_service.cpp.o.d -o CMakeFiles/crow_demo.dir/service/calculator_service.cpp.o -c /home/kang/coderoot/crowdemo/src/gateway/service/calculator_service.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kang/coderoot/crowdemo/crowdemopc/src/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/crow_demo.dir/service/calculator_service.cpp.o"
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/crow_demo.dir/service/calculator_service.cpp.o -MF CMakeFiles/crow_demo.dir/service/calculator_service.cpp.o.d -o CMakeFiles/crow_demo.dir/service/calculator_service.cpp.o -c /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/service/calculator_service.cpp
 
 CMakeFiles/crow_demo.dir/service/calculator_service.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/crow_demo.dir/service/calculator_service.cpp.i"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kang/coderoot/crowdemo/src/gateway/service/calculator_service.cpp > CMakeFiles/crow_demo.dir/service/calculator_service.cpp.i
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/service/calculator_service.cpp > CMakeFiles/crow_demo.dir/service/calculator_service.cpp.i
 
 CMakeFiles/crow_demo.dir/service/calculator_service.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crow_demo.dir/service/calculator_service.cpp.s"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kang/coderoot/crowdemo/src/gateway/service/calculator_service.cpp -o CMakeFiles/crow_demo.dir/service/calculator_service.cpp.s
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/service/calculator_service.cpp -o CMakeFiles/crow_demo.dir/service/calculator_service.cpp.s
 
 CMakeFiles/crow_demo.dir/service/api_service.cpp.o: CMakeFiles/crow_demo.dir/flags.make
 CMakeFiles/crow_demo.dir/service/api_service.cpp.o: ../service/api_service.cpp
 CMakeFiles/crow_demo.dir/service/api_service.cpp.o: CMakeFiles/crow_demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kang/coderoot/crowdemo/src/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/crow_demo.dir/service/api_service.cpp.o"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/crow_demo.dir/service/api_service.cpp.o -MF CMakeFiles/crow_demo.dir/service/api_service.cpp.o.d -o CMakeFiles/crow_demo.dir/service/api_service.cpp.o -c /home/kang/coderoot/crowdemo/src/gateway/service/api_service.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kang/coderoot/crowdemo/crowdemopc/src/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/crow_demo.dir/service/api_service.cpp.o"
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/crow_demo.dir/service/api_service.cpp.o -MF CMakeFiles/crow_demo.dir/service/api_service.cpp.o.d -o CMakeFiles/crow_demo.dir/service/api_service.cpp.o -c /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/service/api_service.cpp
 
 CMakeFiles/crow_demo.dir/service/api_service.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/crow_demo.dir/service/api_service.cpp.i"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kang/coderoot/crowdemo/src/gateway/service/api_service.cpp > CMakeFiles/crow_demo.dir/service/api_service.cpp.i
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/service/api_service.cpp > CMakeFiles/crow_demo.dir/service/api_service.cpp.i
 
 CMakeFiles/crow_demo.dir/service/api_service.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crow_demo.dir/service/api_service.cpp.s"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kang/coderoot/crowdemo/src/gateway/service/api_service.cpp -o CMakeFiles/crow_demo.dir/service/api_service.cpp.s
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/service/api_service.cpp -o CMakeFiles/crow_demo.dir/service/api_service.cpp.s
 
 CMakeFiles/crow_demo.dir/controller/health_controller.cpp.o: CMakeFiles/crow_demo.dir/flags.make
 CMakeFiles/crow_demo.dir/controller/health_controller.cpp.o: ../controller/health_controller.cpp
 CMakeFiles/crow_demo.dir/controller/health_controller.cpp.o: CMakeFiles/crow_demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kang/coderoot/crowdemo/src/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/crow_demo.dir/controller/health_controller.cpp.o"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/crow_demo.dir/controller/health_controller.cpp.o -MF CMakeFiles/crow_demo.dir/controller/health_controller.cpp.o.d -o CMakeFiles/crow_demo.dir/controller/health_controller.cpp.o -c /home/kang/coderoot/crowdemo/src/gateway/controller/health_controller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kang/coderoot/crowdemo/crowdemopc/src/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/crow_demo.dir/controller/health_controller.cpp.o"
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/crow_demo.dir/controller/health_controller.cpp.o -MF CMakeFiles/crow_demo.dir/controller/health_controller.cpp.o.d -o CMakeFiles/crow_demo.dir/controller/health_controller.cpp.o -c /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/controller/health_controller.cpp
 
 CMakeFiles/crow_demo.dir/controller/health_controller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/crow_demo.dir/controller/health_controller.cpp.i"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kang/coderoot/crowdemo/src/gateway/controller/health_controller.cpp > CMakeFiles/crow_demo.dir/controller/health_controller.cpp.i
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/controller/health_controller.cpp > CMakeFiles/crow_demo.dir/controller/health_controller.cpp.i
 
 CMakeFiles/crow_demo.dir/controller/health_controller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crow_demo.dir/controller/health_controller.cpp.s"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kang/coderoot/crowdemo/src/gateway/controller/health_controller.cpp -o CMakeFiles/crow_demo.dir/controller/health_controller.cpp.s
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/controller/health_controller.cpp -o CMakeFiles/crow_demo.dir/controller/health_controller.cpp.s
 
 CMakeFiles/crow_demo.dir/controller/hello_controller.cpp.o: CMakeFiles/crow_demo.dir/flags.make
 CMakeFiles/crow_demo.dir/controller/hello_controller.cpp.o: ../controller/hello_controller.cpp
 CMakeFiles/crow_demo.dir/controller/hello_controller.cpp.o: CMakeFiles/crow_demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kang/coderoot/crowdemo/src/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/crow_demo.dir/controller/hello_controller.cpp.o"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/crow_demo.dir/controller/hello_controller.cpp.o -MF CMakeFiles/crow_demo.dir/controller/hello_controller.cpp.o.d -o CMakeFiles/crow_demo.dir/controller/hello_controller.cpp.o -c /home/kang/coderoot/crowdemo/src/gateway/controller/hello_controller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kang/coderoot/crowdemo/crowdemopc/src/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/crow_demo.dir/controller/hello_controller.cpp.o"
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/crow_demo.dir/controller/hello_controller.cpp.o -MF CMakeFiles/crow_demo.dir/controller/hello_controller.cpp.o.d -o CMakeFiles/crow_demo.dir/controller/hello_controller.cpp.o -c /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/controller/hello_controller.cpp
 
 CMakeFiles/crow_demo.dir/controller/hello_controller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/crow_demo.dir/controller/hello_controller.cpp.i"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kang/coderoot/crowdemo/src/gateway/controller/hello_controller.cpp > CMakeFiles/crow_demo.dir/controller/hello_controller.cpp.i
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/controller/hello_controller.cpp > CMakeFiles/crow_demo.dir/controller/hello_controller.cpp.i
 
 CMakeFiles/crow_demo.dir/controller/hello_controller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crow_demo.dir/controller/hello_controller.cpp.s"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kang/coderoot/crowdemo/src/gateway/controller/hello_controller.cpp -o CMakeFiles/crow_demo.dir/controller/hello_controller.cpp.s
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/controller/hello_controller.cpp -o CMakeFiles/crow_demo.dir/controller/hello_controller.cpp.s
 
 CMakeFiles/crow_demo.dir/controller/calculator_controller.cpp.o: CMakeFiles/crow_demo.dir/flags.make
 CMakeFiles/crow_demo.dir/controller/calculator_controller.cpp.o: ../controller/calculator_controller.cpp
 CMakeFiles/crow_demo.dir/controller/calculator_controller.cpp.o: CMakeFiles/crow_demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kang/coderoot/crowdemo/src/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/crow_demo.dir/controller/calculator_controller.cpp.o"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/crow_demo.dir/controller/calculator_controller.cpp.o -MF CMakeFiles/crow_demo.dir/controller/calculator_controller.cpp.o.d -o CMakeFiles/crow_demo.dir/controller/calculator_controller.cpp.o -c /home/kang/coderoot/crowdemo/src/gateway/controller/calculator_controller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kang/coderoot/crowdemo/crowdemopc/src/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/crow_demo.dir/controller/calculator_controller.cpp.o"
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/crow_demo.dir/controller/calculator_controller.cpp.o -MF CMakeFiles/crow_demo.dir/controller/calculator_controller.cpp.o.d -o CMakeFiles/crow_demo.dir/controller/calculator_controller.cpp.o -c /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/controller/calculator_controller.cpp
 
 CMakeFiles/crow_demo.dir/controller/calculator_controller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/crow_demo.dir/controller/calculator_controller.cpp.i"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kang/coderoot/crowdemo/src/gateway/controller/calculator_controller.cpp > CMakeFiles/crow_demo.dir/controller/calculator_controller.cpp.i
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/controller/calculator_controller.cpp > CMakeFiles/crow_demo.dir/controller/calculator_controller.cpp.i
 
 CMakeFiles/crow_demo.dir/controller/calculator_controller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crow_demo.dir/controller/calculator_controller.cpp.s"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kang/coderoot/crowdemo/src/gateway/controller/calculator_controller.cpp -o CMakeFiles/crow_demo.dir/controller/calculator_controller.cpp.s
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/controller/calculator_controller.cpp -o CMakeFiles/crow_demo.dir/controller/calculator_controller.cpp.s
 
 CMakeFiles/crow_demo.dir/controller/api_controller.cpp.o: CMakeFiles/crow_demo.dir/flags.make
 CMakeFiles/crow_demo.dir/controller/api_controller.cpp.o: ../controller/api_controller.cpp
 CMakeFiles/crow_demo.dir/controller/api_controller.cpp.o: CMakeFiles/crow_demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kang/coderoot/crowdemo/src/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/crow_demo.dir/controller/api_controller.cpp.o"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/crow_demo.dir/controller/api_controller.cpp.o -MF CMakeFiles/crow_demo.dir/controller/api_controller.cpp.o.d -o CMakeFiles/crow_demo.dir/controller/api_controller.cpp.o -c /home/kang/coderoot/crowdemo/src/gateway/controller/api_controller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kang/coderoot/crowdemo/crowdemopc/src/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/crow_demo.dir/controller/api_controller.cpp.o"
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/crow_demo.dir/controller/api_controller.cpp.o -MF CMakeFiles/crow_demo.dir/controller/api_controller.cpp.o.d -o CMakeFiles/crow_demo.dir/controller/api_controller.cpp.o -c /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/controller/api_controller.cpp
 
 CMakeFiles/crow_demo.dir/controller/api_controller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/crow_demo.dir/controller/api_controller.cpp.i"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kang/coderoot/crowdemo/src/gateway/controller/api_controller.cpp > CMakeFiles/crow_demo.dir/controller/api_controller.cpp.i
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/controller/api_controller.cpp > CMakeFiles/crow_demo.dir/controller/api_controller.cpp.i
 
 CMakeFiles/crow_demo.dir/controller/api_controller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crow_demo.dir/controller/api_controller.cpp.s"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kang/coderoot/crowdemo/src/gateway/controller/api_controller.cpp -o CMakeFiles/crow_demo.dir/controller/api_controller.cpp.s
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/controller/api_controller.cpp -o CMakeFiles/crow_demo.dir/controller/api_controller.cpp.s
 
 CMakeFiles/crow_demo.dir/controller/websocket_controller.cpp.o: CMakeFiles/crow_demo.dir/flags.make
 CMakeFiles/crow_demo.dir/controller/websocket_controller.cpp.o: ../controller/websocket_controller.cpp
 CMakeFiles/crow_demo.dir/controller/websocket_controller.cpp.o: CMakeFiles/crow_demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kang/coderoot/crowdemo/src/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/crow_demo.dir/controller/websocket_controller.cpp.o"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/crow_demo.dir/controller/websocket_controller.cpp.o -MF CMakeFiles/crow_demo.dir/controller/websocket_controller.cpp.o.d -o CMakeFiles/crow_demo.dir/controller/websocket_controller.cpp.o -c /home/kang/coderoot/crowdemo/src/gateway/controller/websocket_controller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kang/coderoot/crowdemo/crowdemopc/src/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/crow_demo.dir/controller/websocket_controller.cpp.o"
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/crow_demo.dir/controller/websocket_controller.cpp.o -MF CMakeFiles/crow_demo.dir/controller/websocket_controller.cpp.o.d -o CMakeFiles/crow_demo.dir/controller/websocket_controller.cpp.o -c /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/controller/websocket_controller.cpp
 
 CMakeFiles/crow_demo.dir/controller/websocket_controller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/crow_demo.dir/controller/websocket_controller.cpp.i"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kang/coderoot/crowdemo/src/gateway/controller/websocket_controller.cpp > CMakeFiles/crow_demo.dir/controller/websocket_controller.cpp.i
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/controller/websocket_controller.cpp > CMakeFiles/crow_demo.dir/controller/websocket_controller.cpp.i
 
 CMakeFiles/crow_demo.dir/controller/websocket_controller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crow_demo.dir/controller/websocket_controller.cpp.s"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kang/coderoot/crowdemo/src/gateway/controller/websocket_controller.cpp -o CMakeFiles/crow_demo.dir/controller/websocket_controller.cpp.s
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/controller/websocket_controller.cpp -o CMakeFiles/crow_demo.dir/controller/websocket_controller.cpp.s
 
-CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/service/user_client.cpp.o: CMakeFiles/crow_demo.dir/flags.make
-CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/service/user_client.cpp.o: /home/kang/coderoot/crowdemo/src/user_service/service/user_client.cpp
-CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/service/user_client.cpp.o: CMakeFiles/crow_demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kang/coderoot/crowdemo/src/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/service/user_client.cpp.o"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/service/user_client.cpp.o -MF CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/service/user_client.cpp.o.d -o CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/service/user_client.cpp.o -c /home/kang/coderoot/crowdemo/src/user_service/service/user_client.cpp
+CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/user_client.cpp.o: CMakeFiles/crow_demo.dir/flags.make
+CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/user_client.cpp.o: /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/user_client.cpp
+CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/user_client.cpp.o: CMakeFiles/crow_demo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kang/coderoot/crowdemo/crowdemopc/src/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/user_client.cpp.o"
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/user_client.cpp.o -MF CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/user_client.cpp.o.d -o CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/user_client.cpp.o -c /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/user_client.cpp
 
-CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/service/user_client.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/service/user_client.cpp.i"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kang/coderoot/crowdemo/src/user_service/service/user_client.cpp > CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/service/user_client.cpp.i
+CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/user_client.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/user_client.cpp.i"
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/user_client.cpp > CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/user_client.cpp.i
 
-CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/service/user_client.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/service/user_client.cpp.s"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kang/coderoot/crowdemo/src/user_service/service/user_client.cpp -o CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/service/user_client.cpp.s
+CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/user_client.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/user_client.cpp.s"
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/user_client.cpp -o CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/user_client.cpp.s
 
-CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/util/logger.cpp.o: CMakeFiles/crow_demo.dir/flags.make
-CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/util/logger.cpp.o: /home/kang/coderoot/crowdemo/src/user_service/util/logger.cpp
-CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/util/logger.cpp.o: CMakeFiles/crow_demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kang/coderoot/crowdemo/src/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/util/logger.cpp.o"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/util/logger.cpp.o -MF CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/util/logger.cpp.o.d -o CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/util/logger.cpp.o -c /home/kang/coderoot/crowdemo/src/user_service/util/logger.cpp
+CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/util/logger.cpp.o: CMakeFiles/crow_demo.dir/flags.make
+CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/util/logger.cpp.o: /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/util/logger.cpp
+CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/util/logger.cpp.o: CMakeFiles/crow_demo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kang/coderoot/crowdemo/crowdemopc/src/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/util/logger.cpp.o"
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/util/logger.cpp.o -MF CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/util/logger.cpp.o.d -o CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/util/logger.cpp.o -c /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/util/logger.cpp
 
-CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/util/logger.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/util/logger.cpp.i"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kang/coderoot/crowdemo/src/user_service/util/logger.cpp > CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/util/logger.cpp.i
+CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/util/logger.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/util/logger.cpp.i"
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/util/logger.cpp > CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/util/logger.cpp.i
 
-CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/util/logger.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/util/logger.cpp.s"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kang/coderoot/crowdemo/src/user_service/util/logger.cpp -o CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/util/logger.cpp.s
+CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/util/logger.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/util/logger.cpp.s"
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/util/logger.cpp -o CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/util/logger.cpp.s
 
-CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.cc.o: CMakeFiles/crow_demo.dir/flags.make
-CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.cc.o: /home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.cc
-CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.cc.o: CMakeFiles/crow_demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kang/coderoot/crowdemo/src/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.cc.o"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.cc.o -MF CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.cc.o.d -o CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.cc.o -c /home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.cc
+CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.pb.cc.o: CMakeFiles/crow_demo.dir/flags.make
+CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.pb.cc.o: /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.pb.cc
+CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.pb.cc.o: CMakeFiles/crow_demo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kang/coderoot/crowdemo/crowdemopc/src/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.pb.cc.o"
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.pb.cc.o -MF CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.pb.cc.o.d -o CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.pb.cc.o -c /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.pb.cc
 
-CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.cc.i"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.cc > CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.cc.i
+CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.pb.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.pb.cc.i"
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.pb.cc > CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.pb.cc.i
 
-CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.cc.s"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.cc -o CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.cc.s
+CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.pb.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.pb.cc.s"
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.pb.cc -o CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.pb.cc.s
 
-CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/proto/user.grpc.pb.cc.o: CMakeFiles/crow_demo.dir/flags.make
-CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/proto/user.grpc.pb.cc.o: /home/kang/coderoot/crowdemo/src/user_service/proto/user.grpc.pb.cc
-CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/proto/user.grpc.pb.cc.o: CMakeFiles/crow_demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kang/coderoot/crowdemo/src/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/proto/user.grpc.pb.cc.o"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/proto/user.grpc.pb.cc.o -MF CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/proto/user.grpc.pb.cc.o.d -o CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/proto/user.grpc.pb.cc.o -c /home/kang/coderoot/crowdemo/src/user_service/proto/user.grpc.pb.cc
+CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.grpc.pb.cc.o: CMakeFiles/crow_demo.dir/flags.make
+CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.grpc.pb.cc.o: /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.grpc.pb.cc
+CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.grpc.pb.cc.o: CMakeFiles/crow_demo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kang/coderoot/crowdemo/crowdemopc/src/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.grpc.pb.cc.o"
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.grpc.pb.cc.o -MF CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.grpc.pb.cc.o.d -o CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.grpc.pb.cc.o -c /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.grpc.pb.cc
 
-CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/proto/user.grpc.pb.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/proto/user.grpc.pb.cc.i"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kang/coderoot/crowdemo/src/user_service/proto/user.grpc.pb.cc > CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/proto/user.grpc.pb.cc.i
+CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.grpc.pb.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.grpc.pb.cc.i"
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.grpc.pb.cc > CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.grpc.pb.cc.i
 
-CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/proto/user.grpc.pb.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/proto/user.grpc.pb.cc.s"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kang/coderoot/crowdemo/src/user_service/proto/user.grpc.pb.cc -o CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/proto/user.grpc.pb.cc.s
+CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.grpc.pb.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.grpc.pb.cc.s"
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.grpc.pb.cc -o CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.grpc.pb.cc.s
+
+CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/testredis/redis.cpp.o: CMakeFiles/crow_demo.dir/flags.make
+CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/testredis/redis.cpp.o: /home/kang/coderoot/crowdemo/testredis/redis.cpp
+CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/testredis/redis.cpp.o: CMakeFiles/crow_demo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kang/coderoot/crowdemo/crowdemopc/src/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/testredis/redis.cpp.o"
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/testredis/redis.cpp.o -MF CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/testredis/redis.cpp.o.d -o CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/testredis/redis.cpp.o -c /home/kang/coderoot/crowdemo/testredis/redis.cpp
+
+CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/testredis/redis.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/testredis/redis.cpp.i"
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kang/coderoot/crowdemo/testredis/redis.cpp > CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/testredis/redis.cpp.i
+
+CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/testredis/redis.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/testredis/redis.cpp.s"
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kang/coderoot/crowdemo/testredis/redis.cpp -o CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/testredis/redis.cpp.s
 
 # Object files for target crow_demo
 crow_demo_OBJECTS = \
@@ -337,10 +351,11 @@ crow_demo_OBJECTS = \
 "CMakeFiles/crow_demo.dir/controller/calculator_controller.cpp.o" \
 "CMakeFiles/crow_demo.dir/controller/api_controller.cpp.o" \
 "CMakeFiles/crow_demo.dir/controller/websocket_controller.cpp.o" \
-"CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/service/user_client.cpp.o" \
-"CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/util/logger.cpp.o" \
-"CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.cc.o" \
-"CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/proto/user.grpc.pb.cc.o"
+"CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/user_client.cpp.o" \
+"CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/util/logger.cpp.o" \
+"CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.pb.cc.o" \
+"CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.grpc.pb.cc.o" \
+"CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/testredis/redis.cpp.o"
 
 # External object files for target crow_demo
 crow_demo_EXTERNAL_OBJECTS =
@@ -359,10 +374,11 @@ crow_demo: CMakeFiles/crow_demo.dir/controller/hello_controller.cpp.o
 crow_demo: CMakeFiles/crow_demo.dir/controller/calculator_controller.cpp.o
 crow_demo: CMakeFiles/crow_demo.dir/controller/api_controller.cpp.o
 crow_demo: CMakeFiles/crow_demo.dir/controller/websocket_controller.cpp.o
-crow_demo: CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/service/user_client.cpp.o
-crow_demo: CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/util/logger.cpp.o
-crow_demo: CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/proto/user.pb.cc.o
-crow_demo: CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/src/user_service/proto/user.grpc.pb.cc.o
+crow_demo: CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/service/user_client.cpp.o
+crow_demo: CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/util/logger.cpp.o
+crow_demo: CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.pb.cc.o
+crow_demo: CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/crowdemopc/src/user_service/proto/user.grpc.pb.cc.o
+crow_demo: CMakeFiles/crow_demo.dir/home/kang/coderoot/crowdemo/testredis/redis.cpp.o
 crow_demo: CMakeFiles/crow_demo.dir/build.make
 crow_demo: /usr/local/lib64/libyaml-cpp.a
 crow_demo: /usr/local/lib64/libprotobuf.a
@@ -452,7 +468,7 @@ crow_demo: /usr/local/lib64/libabsl_throw_delegate.so.2301.0.0
 crow_demo: /usr/local/lib64/libabsl_raw_logging_internal.so.2301.0.0
 crow_demo: /usr/local/lib64/libabsl_log_severity.so.2301.0.0
 crow_demo: CMakeFiles/crow_demo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kang/coderoot/crowdemo/src/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable crow_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kang/coderoot/crowdemo/crowdemopc/src/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable crow_demo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/crow_demo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -464,6 +480,6 @@ CMakeFiles/crow_demo.dir/clean:
 .PHONY : CMakeFiles/crow_demo.dir/clean
 
 CMakeFiles/crow_demo.dir/depend:
-	cd /home/kang/coderoot/crowdemo/src/gateway/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kang/coderoot/crowdemo/src/gateway /home/kang/coderoot/crowdemo/src/gateway /home/kang/coderoot/crowdemo/src/gateway/build /home/kang/coderoot/crowdemo/src/gateway/build /home/kang/coderoot/crowdemo/src/gateway/build/CMakeFiles/crow_demo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kang/coderoot/crowdemo/crowdemopc/src/gateway /home/kang/coderoot/crowdemo/crowdemopc/src/gateway /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/build /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/build /home/kang/coderoot/crowdemo/crowdemopc/src/gateway/build/CMakeFiles/crow_demo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/crow_demo.dir/depend
 

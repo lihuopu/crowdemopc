@@ -31,6 +31,9 @@ int main() {
     
     // 从配置获取服务器设置
     const auto& server_config = config_manager.getServerConfig();
+
+    // 初始化WebSocket的Redis客户端（关键步骤）
+    gateway::controller::WebSocketController::initRedisClient();
     
     crow::App<RouteMiddleware, crow::CORSHandler> app;
 
