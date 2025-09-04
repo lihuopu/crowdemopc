@@ -78,3 +78,166 @@
 2025-08-12 07:44:05.422 [INFO ] RequestID: 0c55a70ee27960bc6f8a41a02ff3d8dc | User info retrieved from user service successfully
 2025-08-12 07:44:05.422 [INFO ] RequestID: 0c55a70ee27960bc6f8a41a02ff3d8dc | Method: 1 | URL: /api/user/1 | 处理完成，耗时: 4ms
 2025-08-12 07:44:05.422 [INFO ] RequestID: 0c55a70ee27960bc6f8a41a02ff3d8dc | Response Status: 200
+2025-08-12 07:48:57.745 [INFO ] RequestID: c04a98208f13c99fd14f3cd37ea0de44 | Method: 1 | URL: /api/user/1
+2025-08-12 07:48:57.745 [INFO ] RequestID: c04a98208f13c99fd14f3cd37ea0de44 | Headers:
+2025-08-12 07:48:57.745 [INFO ]   Connection: keep-alive
+2025-08-12 07:48:57.745 [INFO ]   Accept-Encoding: gzip, deflate, br
+2025-08-12 07:48:57.745 [INFO ]   Host: 192.168.58.130:18080
+2025-08-12 07:48:57.745 [INFO ]   Accept: */*
+2025-08-12 07:48:57.745 [INFO ]   User-Agent: Apifox/1.0.0 (https://apifox.com)
+2025-08-12 07:48:57.745 [INFO ] RequestID: c04a98208f13c99fd14f3cd37ea0de44 | 开始处理请求
+2025-08-12 07:48:57.745 [INFO ] RequestID: c04a98208f13c99fd14f3cd37ea0de44 | Processing user info request for user_id: 1
+2025-08-12 07:48:57.748 [INFO ] 收到Redis通道 200 的消息: {"type":"request","user_id":1,"timestamp":1755010137}
+2025-08-12 07:48:57.749 [INFO ] RequestID: c04a98208f13c99fd14f3cd37ea0de44 | User info retrieved from user service successfully
+2025-08-12 07:48:57.749 [INFO ] RequestID: c04a98208f13c99fd14f3cd37ea0de44 | Method: 1 | URL: /api/user/1 | 处理完成，耗时: 3ms
+2025-08-12 07:48:57.749 [INFO ] RequestID: c04a98208f13c99fd14f3cd37ea0de44 | Response Status: 200
+2025-08-12 07:49:29.793 [INFO ] WebSocket客户端断开连接，原因: ，当前连接数: 1
+2025-08-12 07:49:31.780 [INFO ] RequestID: 52fc1d04a98dec41bbc8a84b22549d22 | Method: 1 | URL: /ws
+2025-08-12 07:49:31.780 [INFO ] RequestID: 52fc1d04a98dec41bbc8a84b22549d22 | Headers:
+2025-08-12 07:49:31.780 [INFO ]   Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2025-08-12 07:49:31.780 [INFO ]   Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2025-08-12 07:49:31.780 [INFO ]   Accept-Encoding: gzip, deflate, br, zstd
+2025-08-12 07:49:31.780 [INFO ]   Origin: null
+2025-08-12 07:49:31.780 [INFO ]   Upgrade: websocket
+2025-08-12 07:49:31.780 [INFO ]   User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0
+2025-08-12 07:49:31.780 [INFO ]   Sec-WebSocket-Key: 33PqoR4sgd9o35mlHbYDuw==
+2025-08-12 07:49:31.780 [INFO ]   Pragma: no-cache
+2025-08-12 07:49:31.780 [INFO ]   Sec-WebSocket-Version: 13
+2025-08-12 07:49:31.780 [INFO ]   Cache-Control: no-cache
+2025-08-12 07:49:31.780 [INFO ]   Connection: Upgrade
+2025-08-12 07:49:31.781 [INFO ]   Host: 127.0.0.1:18080
+2025-08-12 07:49:31.781 [INFO ] RequestID: 52fc1d04a98dec41bbc8a84b22549d22 | 开始处理请求
+2025-08-12 07:49:31.781 [INFO ] WebSocket客户端连接成功，客户端ID: client_20250812_074931_781_1263，当前连接数: 2
+2025-08-12 07:49:48.105 [INFO ] WebSocket客户端断开连接，原因: ，当前连接数: 1
+2025-08-12 07:49:55.080 [INFO ] RequestID: ed2d90de02d10cfa5f35e4e308035454 | Method: 1 | URL: /api/user/1
+2025-08-12 07:49:55.080 [INFO ] RequestID: ed2d90de02d10cfa5f35e4e308035454 | Headers:
+2025-08-12 07:49:55.080 [INFO ]   Connection: keep-alive
+2025-08-12 07:49:55.080 [INFO ]   Accept-Encoding: gzip, deflate, br
+2025-08-12 07:49:55.080 [INFO ]   Host: 192.168.58.130:18080
+2025-08-12 07:49:55.080 [INFO ]   Accept: */*
+2025-08-12 07:49:55.080 [INFO ]   User-Agent: Apifox/1.0.0 (https://apifox.com)
+2025-08-12 07:49:55.080 [INFO ] RequestID: ed2d90de02d10cfa5f35e4e308035454 | 开始处理请求
+2025-08-12 07:49:55.080 [INFO ] RequestID: ed2d90de02d10cfa5f35e4e308035454 | Processing user info request for user_id: 1
+2025-08-12 07:49:55.083 [INFO ] 收到Redis通道 200 的消息: {"type":"request","user_id":1,"timestamp":1755010195}
+2025-08-12 07:49:55.084 [INFO ] RequestID: ed2d90de02d10cfa5f35e4e308035454 | User info retrieved from user service successfully
+2025-08-12 07:49:55.084 [INFO ] RequestID: ed2d90de02d10cfa5f35e4e308035454 | Method: 1 | URL: /api/user/1 | 处理完成，耗时: 3ms
+2025-08-12 07:49:55.084 [INFO ] RequestID: ed2d90de02d10cfa5f35e4e308035454 | Response Status: 200
+2025-08-12 07:50:53.922 [INFO ] WebSocket客户端断开连接，原因: ，当前连接数: 0
+2025-08-12 07:50:54.809 [INFO ] RequestID: d39f7dd3e248126f35b7b162257b0198 | Method: 1 | URL: /ws
+2025-08-12 07:50:54.809 [INFO ] RequestID: d39f7dd3e248126f35b7b162257b0198 | Headers:
+2025-08-12 07:50:54.809 [INFO ]   Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2025-08-12 07:50:54.809 [INFO ]   Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2025-08-12 07:50:54.809 [INFO ]   Accept-Encoding: gzip, deflate
+2025-08-12 07:50:54.809 [INFO ]   Origin: null
+2025-08-12 07:50:54.809 [INFO ]   Upgrade: websocket
+2025-08-12 07:50:54.809 [INFO ]   User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0
+2025-08-12 07:50:54.809 [INFO ]   Sec-WebSocket-Key: 6qq0sndRV/1fj1WdBE575w==
+2025-08-12 07:50:54.809 [INFO ]   Pragma: no-cache
+2025-08-12 07:50:54.809 [INFO ]   Sec-WebSocket-Version: 13
+2025-08-12 07:50:54.809 [INFO ]   Cache-Control: no-cache
+2025-08-12 07:50:54.809 [INFO ]   Connection: Upgrade
+2025-08-12 07:50:54.809 [INFO ]   Host: 192.168.58.130:18080
+2025-08-12 07:50:54.809 [INFO ] RequestID: d39f7dd3e248126f35b7b162257b0198 | 开始处理请求
+2025-08-12 07:50:54.809 [INFO ] WebSocket客户端连接成功，客户端ID: client_20250812_075054_809_9233，当前连接数: 1
+2025-08-12 07:51:15.196 [INFO ] RequestID: de812c978ee8b848e96611122326f2b7 | Method: 1 | URL: /api/user/1
+2025-08-12 07:51:15.196 [INFO ] RequestID: de812c978ee8b848e96611122326f2b7 | Headers:
+2025-08-12 07:51:15.196 [INFO ]   Connection: keep-alive
+2025-08-12 07:51:15.196 [INFO ]   Accept-Encoding: gzip, deflate, br
+2025-08-12 07:51:15.196 [INFO ]   Host: 192.168.58.130:18080
+2025-08-12 07:51:15.196 [INFO ]   Accept: */*
+2025-08-12 07:51:15.196 [INFO ]   User-Agent: Apifox/1.0.0 (https://apifox.com)
+2025-08-12 07:51:15.196 [INFO ] RequestID: de812c978ee8b848e96611122326f2b7 | 开始处理请求
+2025-08-12 07:51:15.196 [INFO ] RequestID: de812c978ee8b848e96611122326f2b7 | Processing user info request for user_id: 1
+2025-08-12 07:51:15.200 [INFO ] RequestID: de812c978ee8b848e96611122326f2b7 | User info retrieved from user service successfully
+2025-08-12 07:51:15.200 [INFO ] RequestID: de812c978ee8b848e96611122326f2b7 | Method: 1 | URL: /api/user/1 | 处理完成，耗时: 4ms
+2025-08-12 07:51:15.200 [INFO ] RequestID: de812c978ee8b848e96611122326f2b7 | Response Status: 200
+2025-08-12 07:51:15.202 [INFO ] 收到Redis通道 200 的消息: {"type":"request","user_id":1,"timestamp":1755010275}
+2025-08-12 07:52:18.031 [INFO ] 聊天消息 - 用户: 测试用户, 消息: 111
+2025-08-12 07:52:39.943 [INFO ] 聊天消息 - 用户: 测试用户, 消息: 222
+2025-08-12 07:52:50.511 [INFO ] RequestID: 3ecdcf713e46da290d5565cf426f1554 | Method: 1 | URL: /api/user/1
+2025-08-12 07:52:50.511 [INFO ] RequestID: 3ecdcf713e46da290d5565cf426f1554 | Headers:
+2025-08-12 07:52:50.511 [INFO ]   Connection: keep-alive
+2025-08-12 07:52:50.511 [INFO ]   Accept-Encoding: gzip, deflate, br
+2025-08-12 07:52:50.511 [INFO ]   Host: 192.168.58.130:18080
+2025-08-12 07:52:50.511 [INFO ]   Accept: */*
+2025-08-12 07:52:50.511 [INFO ]   User-Agent: Apifox/1.0.0 (https://apifox.com)
+2025-08-12 07:52:50.511 [INFO ] RequestID: 3ecdcf713e46da290d5565cf426f1554 | 开始处理请求
+2025-08-12 07:52:50.511 [INFO ] RequestID: 3ecdcf713e46da290d5565cf426f1554 | Processing user info request for user_id: 1
+2025-08-12 07:52:50.513 [INFO ] 收到Redis通道 200 的消息: {"type":"request","user_id":1,"timestamp":1755010370}
+2025-08-12 07:52:50.514 [INFO ] RequestID: 3ecdcf713e46da290d5565cf426f1554 | User info retrieved from user service successfully
+2025-08-12 07:52:50.514 [INFO ] RequestID: 3ecdcf713e46da290d5565cf426f1554 | Method: 1 | URL: /api/user/1 | 处理完成，耗时: 2ms
+2025-08-12 07:52:50.514 [INFO ] RequestID: 3ecdcf713e46da290d5565cf426f1554 | Response Status: 200
+2025-08-12 07:53:02.784 [INFO ] 聊天消息 - 用户: 测试用户, 消息: 1111
+2025-08-12 07:53:14.768 [INFO ] RequestID: b5a84271ec4b7bfa41323babb3cfc489 | Method: 1 | URL: /api/user/1
+2025-08-12 07:53:14.768 [INFO ] RequestID: b5a84271ec4b7bfa41323babb3cfc489 | Headers:
+2025-08-12 07:53:14.768 [INFO ]   Connection: keep-alive
+2025-08-12 07:53:14.768 [INFO ]   Accept-Encoding: gzip, deflate, br
+2025-08-12 07:53:14.768 [INFO ]   Host: 192.168.58.130:18080
+2025-08-12 07:53:14.769 [INFO ]   Accept: */*
+2025-08-12 07:53:14.769 [INFO ]   User-Agent: Apifox/1.0.0 (https://apifox.com)
+2025-08-12 07:53:14.769 [INFO ] RequestID: b5a84271ec4b7bfa41323babb3cfc489 | 开始处理请求
+2025-08-12 07:53:14.769 [INFO ] RequestID: b5a84271ec4b7bfa41323babb3cfc489 | Processing user info request for user_id: 1
+2025-08-12 07:53:14.965 [INFO ] 收到Redis通道 200 的消息: {"type":"request","user_id":1,"timestamp":1755010394}
+2025-08-12 07:53:14.966 [INFO ] RequestID: b5a84271ec4b7bfa41323babb3cfc489 | User info retrieved from user service successfully
+2025-08-12 07:53:14.966 [INFO ] RequestID: b5a84271ec4b7bfa41323babb3cfc489 | Method: 1 | URL: /api/user/1 | 处理完成，耗时: 197ms
+2025-08-12 07:53:14.966 [INFO ] RequestID: b5a84271ec4b7bfa41323babb3cfc489 | Response Status: 200
+2025-08-12 07:53:26.791 [INFO ] 聊天消息 - 用户: 测试用户, 消息: 111
+2025-08-12 07:53:43.324 [INFO ] WebSocket客户端断开连接，原因: ，当前连接数: 0
+2025-08-12 07:53:43.977 [INFO ] RequestID: 6379173d4813375e9182af27daaa5df9 | Method: 1 | URL: /ws
+2025-08-12 07:53:43.977 [INFO ] RequestID: 6379173d4813375e9182af27daaa5df9 | Headers:
+2025-08-12 07:53:43.977 [INFO ]   Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2025-08-12 07:53:43.977 [INFO ]   Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2025-08-12 07:53:43.977 [INFO ]   Accept-Encoding: gzip, deflate
+2025-08-12 07:53:43.977 [INFO ]   Origin: null
+2025-08-12 07:53:43.977 [INFO ]   Upgrade: websocket
+2025-08-12 07:53:43.977 [INFO ]   User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0
+2025-08-12 07:53:43.977 [INFO ]   Sec-WebSocket-Key: mUH9ZYE5VF3l/7ZLfK/Tyw==
+2025-08-12 07:53:43.977 [INFO ]   Pragma: no-cache
+2025-08-12 07:53:43.977 [INFO ]   Sec-WebSocket-Version: 13
+2025-08-12 07:53:43.977 [INFO ]   Cache-Control: no-cache
+2025-08-12 07:53:43.977 [INFO ]   Connection: Upgrade
+2025-08-12 07:53:43.977 [INFO ]   Host: 192.168.58.130:18080
+2025-08-12 07:53:43.977 [INFO ] RequestID: 6379173d4813375e9182af27daaa5df9 | 开始处理请求
+2025-08-12 07:53:43.977 [INFO ] WebSocket客户端连接成功，客户端ID: client_20250812_075343_977_9359，当前连接数: 1
+2025-08-12 07:57:04.733 [INFO ] RequestID: 3fca682a946c6579017226a31c05ac6f | Method: 1 | URL: /ws/status
+2025-08-12 07:57:04.733 [INFO ] RequestID: 3fca682a946c6579017226a31c05ac6f | Headers:
+2025-08-12 07:57:04.733 [INFO ]   Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2025-08-12 07:57:04.733 [INFO ]   Accept-Encoding: gzip, deflate
+2025-08-12 07:57:04.733 [INFO ]   Origin: null
+2025-08-12 07:57:04.734 [INFO ]   Accept: */*
+2025-08-12 07:57:04.734 [INFO ]   User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0
+2025-08-12 07:57:04.734 [INFO ]   Connection: keep-alive
+2025-08-12 07:57:04.734 [INFO ]   Host: 192.168.58.130:18080
+2025-08-12 07:57:04.734 [INFO ] RequestID: 3fca682a946c6579017226a31c05ac6f | 开始处理请求
+2025-08-12 07:57:04.734 [INFO ] RequestID: 3fca682a946c6579017226a31c05ac6f | Method: 1 | URL: /ws/status | 处理完成，耗时: 0ms
+2025-08-12 07:57:04.734 [INFO ] RequestID: 3fca682a946c6579017226a31c05ac6f | Response Status: 200
+2025-08-12 07:57:07.954 [INFO ] RequestID: 74db1bf0a8f104e74c0a87e6252cd866 | Method: 1 | URL: /ws/status
+2025-08-12 07:57:07.954 [INFO ] RequestID: 74db1bf0a8f104e74c0a87e6252cd866 | Headers:
+2025-08-12 07:57:07.955 [INFO ]   Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2025-08-12 07:57:07.955 [INFO ]   Accept-Encoding: gzip, deflate
+2025-08-12 07:57:07.955 [INFO ]   Origin: null
+2025-08-12 07:57:07.955 [INFO ]   Accept: */*
+2025-08-12 07:57:07.955 [INFO ]   User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0
+2025-08-12 07:57:07.955 [INFO ]   Connection: keep-alive
+2025-08-12 07:57:07.955 [INFO ]   Host: 192.168.58.130:18080
+2025-08-12 07:57:07.955 [INFO ] RequestID: 74db1bf0a8f104e74c0a87e6252cd866 | 开始处理请求
+2025-08-12 07:57:07.955 [INFO ] RequestID: 74db1bf0a8f104e74c0a87e6252cd866 | Method: 1 | URL: /ws/status | 处理完成，耗时: 0ms
+2025-08-12 07:57:07.955 [INFO ] RequestID: 74db1bf0a8f104e74c0a87e6252cd866 | Response Status: 200
+2025-08-12 07:58:43.075 [INFO ] WebSocket客户端断开连接，原因: ，当前连接数: 0
+2025-08-12 07:58:48.018 [INFO ] RequestID: 76289fa79404a2ab0827825134c1c8cc | Method: 1 | URL: /ws
+2025-08-12 07:58:48.018 [INFO ] RequestID: 76289fa79404a2ab0827825134c1c8cc | Headers:
+2025-08-12 07:58:48.018 [INFO ]   Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2025-08-12 07:58:48.018 [INFO ]   Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2025-08-12 07:58:48.018 [INFO ]   Accept-Encoding: gzip, deflate
+2025-08-12 07:58:48.018 [INFO ]   Origin: null
+2025-08-12 07:58:48.018 [INFO ]   Upgrade: websocket
+2025-08-12 07:58:48.018 [INFO ]   User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0
+2025-08-12 07:58:48.018 [INFO ]   Sec-WebSocket-Key: AS42fhMESWyJJGkK4N0/Gg==
+2025-08-12 07:58:48.018 [INFO ]   Pragma: no-cache
+2025-08-12 07:58:48.018 [INFO ]   Sec-WebSocket-Version: 13
+2025-08-12 07:58:48.018 [INFO ]   Cache-Control: no-cache
+2025-08-12 07:58:48.018 [INFO ]   Connection: Upgrade
+2025-08-12 07:58:48.018 [INFO ]   Host: 192.168.58.130:18080
+2025-08-12 07:58:48.018 [INFO ] RequestID: 76289fa79404a2ab0827825134c1c8cc | 开始处理请求
+2025-08-12 07:58:48.018 [INFO ] WebSocket客户端连接成功，客户端ID: client_20250812_075848_018_5417，当前连接数: 1
+2025-08-12 07:59:01.800 [INFO ] WebSocket客户端断开连接，原因: ，当前连接数: 0
